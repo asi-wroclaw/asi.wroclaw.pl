@@ -1,7 +1,7 @@
-----
+---
 title: Bieżąca działalność
 date: 2009-11-24 01:03:23 +0100
-----
+---
 
 Oto, co działo się w ASI od początku tego semestru:
 

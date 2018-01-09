@@ -1,5 +1,5 @@
 ---
-title: OpenCV: cyfrowe oczy pytona
+title: "OpenCV: cyfrowe oczy pytona"
 date: 2010-06-11 22:35:42 +0200
 ---
 W najbliższy wtorek, podczas ostatniego wykładu z cyklu, usłyszymy o **OpenCV** - jednym z najbardziej interesujących Pythonowych projektów z dziedziny cyfrowego przetwarzania obrazów. Wykład odbędzie się **15 czerwca** (wtorek) o godzinie **17:15** w sali **2.17** , w budynku **C-13** Politechniki Wrocławskiej. Będzie on dotyczył **pythonowego interfejsu popularnej biblioteki OpenCV** - jednego z najpopularniejszych projektów z dziedziny **cyfrowego przetwarzania obrazów** , z powodzeniem wykorzystywanego zarówno przez profesjonalistów jak i amatorów. Omówione będą podstawy modułu CV, jego możliwości oraz najważniejsze różnice, na które muszą zwrócić uwagę programiści znający OpenCV od strony C/C++. Wykład będzie zilustrowany **praktycznymi przykładami** oraz własnymi projektami wykorzystującymi omawianą bibliotekę. Przypominamy, że będzie to już **ostatni wykład w tym roku akademickim**. Z tej okazji planujemy krótkie podsumowanie całego cyklu. Przedstawimy również nasze **plany na najbliższą przyszłość** , związane zarówno z Pythonem, jak i LinuxAcademy. Materiały z wykładu:&nbsp;[opencv](http://www.asi.pwr.wroc.pl/wp-content/uploads/2010/06/opencv.tar.gz)
