@@ -46,6 +46,7 @@ GEM
     http_parser.rb (0.6.0)
     i18n (0.7.0)
     kramdown (1.16.2)
+    libv8 (3.16.14.19)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -120,12 +121,16 @@ GEM
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
     redcarpet (3.4.0)
+    ref (2.0.0)
     ruby_parser (3.10.1)
       sexp_processor (~> 4.9)
     sass (3.4.25)
     servolux (0.13.0)
     sexp_processor (4.10.0)
     temple (0.8.0)
+    therubyracer (0.12.3)
+      libv8 (~> 3.16.14.15)
+      ref
     thor (0.20.0)
     thread_safe (0.3.6)
     tilt (2.0.8)
@@ -147,6 +152,7 @@ DEPENDENCIES
   middleman-pry
   nokogiri
   redcarpet (~> 3.3, >= 3.3.3)
+  therubyracer
   tzinfo-data
   wdm (~> 0.1.0)
 
