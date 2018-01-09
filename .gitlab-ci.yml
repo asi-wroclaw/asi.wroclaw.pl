@@ -10,7 +10,9 @@ cache:
     - build
 
 before_script:
-  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+  - apt-get update -y
+  - 'which ssh-agent || ( apt-get install openssh-client -y )'
+  - apt-get install -y rsync
   - eval $(ssh-agent -s)
   - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
   - mkdir -p ~/.ssh
