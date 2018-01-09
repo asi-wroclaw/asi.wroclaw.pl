@@ -31,4 +31,6 @@ deploy:
   type: deploy
   environment: production
   script:
-  - rsync -rltpDh --chown=asiwww:asiwww ./build tramwaj.asi.wroclaw.pl:fcgi/asi.wroclaw.pl
+  - echo "${SSH_PRIVATE_KEY}" > "${HOME}/.ssh/id_rsa"
+  - echo "${SSH_HOST_KEY}" >  "${HOME}/.ssh/known_hosts"
+  - rsync -hrvz --chown=asiwww:asiwww -e 'ssh -i id_rsa' build/ asiwww@tramwaj.asi.wroclaw.pl:fcgi/asi.wroclaw.pl
