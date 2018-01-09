@@ -1,0 +1,6 @@
+---
+title: Linux Academy 2012 #1
+date: 2012-02-28 09:10:42 +0100
+---
+Wypoczęci po sesji i feriach ruszamy z kolejnym cyklem wykładów Linux Academy. Cykl ten organizujemy pod hasłem "Wstęp do...". Od 28. lutego będziemy spotykać się co tydzień w sali 2.17 bud. C-13 Politechniki Wrocławskiej o godz. 19:00. Zabawę zaczniemy od "Wstępu do programowania funkcyjnego". Co to właściwie jest programowanie funkcyjne? Dlaczego jest wygodne? Czy ma w ogóle jakieś praktyczne zastosowanie? Te i inne tematy zostaną poruszone podczas wykładu. Ci, którzy nie mieli jeszcze do czynienia z językami funkcyjnymi, będą mieli okazję zobaczyć zupełnie nowy styl programowania. Więcej informacji można znaleźć na [www.linuxacademy.pl](http://www.linuxacademy.pl/). Serdecznie zapraszamy.
+

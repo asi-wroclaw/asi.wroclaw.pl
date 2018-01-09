@@ -1,0 +1,6 @@
+---
+title: Podsumowanie 9. Sesji Linuksowej
+date: 2012-05-28 19:36:29 +0200
+---
+Sesja, sesja i po sesji. Jednak ta, 9 Sesja Linuksowa zostanie w naszej pamięci na długo. Dzięki niej mogliśmy wspólnie poszerzyć nasze horyzonty, i poznać wiele fascynujących faktów z życia open source. Wysłuchaliśmy wspólnie wielu prelekcji, za co, po raz kolejny, serdecznie dziękujemy zarówno prelegentom, sponsorom, jak i Wam drodzy słuchacze. To dzięki pasjonatom takim jak Wy cała nasza praca nabiera sensu. Frekwencja na najpopularniejszych wykładach przekraczała 150 osób, a to znaczy, że tematy wzbudziły w Was żywe zainteresowanie. Przychodząc na nasze prelekcje uświadamiacie nam, jak i całemu światu, że jest nas wielu, a Linux stale zyskuje na popularności. Bardzo ucieszył nas fakt, że na sesji pojawili się ludzie z całej Polski, między innymi z Krakowa, Warszawy i Gdańska i wielu innych miejsc znacznie odleglejszych od Wrocławia. Mamy nadzieję, że podobały Wam się koszulki, smycze i długopisy które wygraliście w naszych konkursach. Kolejna sesja z okrągłym numerem 10, powoli się zbliża, mamy nadzieję, że okaże się jeszcze większym wydarzeniem w świecie polskiego Linuksa! Przygotowania do niej powoli się zaczynają, więc do zobaczenia za rok.
+

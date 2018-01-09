@@ -1,5 +1,6 @@
 Haml::TempleEngine.disable_option_validator!
 set :haml, format: :html5
+Time.zone = "Europe/Warsaw"
 
 ###
 # Page options, layouts, aliases and proxies
@@ -24,7 +25,7 @@ activate :blog do |blog|
   # Matcher for blog source files
   # blog.sources = "{year}-{month}-{day}-{title}.html"
   # blog.taglink = "tags/{tag}.html"
-  # blog.layout = "layout"
+  blog.layout = "blog"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = "{year}.html"

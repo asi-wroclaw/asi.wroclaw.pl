@@ -1,0 +1,5 @@
+---
+title: Wykład: Programowanie aplikacji webowych w Pythonie
+date: 2015-05-10 13:45:21 +0200
+---
+ **Już 13 maja zapraszamy na kolejny wykład z serii Linux Academy!** Jeżeli zastanawiasz się, co sprawia, że Python jest używany przez największych graczy branży internetowej - ten wykład da Ci odpowiedź. Poznasz najważniejsze technologie i narzędzia, wykorzystywane do tworzenia aplikacji webowych w tym języku. Dowiesz się, jak działają popularne frameworki, takie jak Django czy Flask. Na koniec wyjdziesz z wiedzą, która pozwoli Ci wkroczyć w świat tworzenia profesjonalnych aplikacji webowych. Wykład zostanie poprowadzony z myślą również o osobach, które nie miały wcześniej styczności z Pythonem, na wstępie dowiesz się&nbsp;o podstawach języka niezbędnych do zrozumienia prezentowanych przykładów. **Prelegent: Piotr Wasilewski**** Czas: 13 maja (środa) godz. 17.20 ****Miejsce: sala 2.17/C-13** Przypominamy, że udostępniamy **streaming ze wszystkich prelekcji** na [naszym kanale](https://www.youtube.com/channel/UCHWOEZiYtDdXnCh2uZZOlhA) w serwisie YouTube. Zapraszamy do oglądania!

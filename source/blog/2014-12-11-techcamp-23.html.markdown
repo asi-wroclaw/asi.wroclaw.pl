@@ -1,0 +1,6 @@
+---
+title: TechCamp #23
+date: 2014-12-11 17:32:02 +0100
+---
+Czy drzemie w Tobie Java Master? Zapraszamy na kolejny odcinek TechCampu, który odbędzie się 14 stycznia we Wrocławiu i 15 stycznia w Krakowie. Gość specjalny - Jarosław Pałka, nazywany „inżynierem od spraw katastrof w IT”, wprowadzi nas w tematykę grafowych baz danych. Udział jest bezpłatny, wystarczy się zarejestrować na stronie:[www.techcamp23.evenea.pl](http://www.techcamp23.evenea.pl "Wrocław") (Wrocław)[www.techcamp24.evenea.pl](http://www.techcamp24.evenea.pl) (Kraków) Na uczestników czeka darmowa pizza :)
+

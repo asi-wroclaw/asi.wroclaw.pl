@@ -1,0 +1,5 @@
+---
+title: Pierwsze spotkanie w roku akademickim 2014/2015
+date: 2014-09-29 16:14:49 +0200
+---
+ **Szanowni Studenci oraz inne osoby zainteresowane naszą działalnością!** Chcielibyśmy wszystkich - zarówno osoby, które dopiero zastanawiają się nad dołączeniem w nasze szeregi, stałych bywalców jak i osoby, które już przeszły na ASI-ową emeryturę zaprosić na pierwsze spotkanie naszej organizacji w semestrze zimowym 2014/2015! Spotkanie to odbędzie się 7-mego października 2014 roku o godzinie 18:00 w sali 2.17 w budynku C-13 na kampusie Politechniki Wrocławskiej. Podczas&nbsp;spotkania planowane jest między innymi podsumowanie projektów oraz aktywności Akademickiego Stowarzyszenia Informatycznego w trakcie wakacji oraz przedstawienie kwestii bieżących które czekają na nas w nowym semestrze akademickim.
