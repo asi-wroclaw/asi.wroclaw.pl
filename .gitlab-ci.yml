@@ -1,0 +1,32 @@
+# This file is a template, and might need editing before it works on your project.
+# Official language image. Look for the different tagged releases at:
+# https://hub.docker.com/r/library/ruby/tags/
+image: "ruby:2.4"
+
+# Cache gems in between builds
+cache:
+  paths:
+    - vendor/ruby
+    - build
+
+before_script:
+  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+  - eval $(ssh-agent -s)
+  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+  - mkdir -p ~/.ssh
+  - chmod 700 ~/.ssh
+  - ruby -v
+  - gem install bundler  --no-ri --no-rdoc
+  - bundle install -j $(nproc) --path vendor
+
+middleman:
+  script:
+  - bundle exec middleman build --clean --parallel --verbose
+
+# This deploy job uses a simple deploy flow to Heroku, other providers, e.g. AWS Elastic Beanstalk
+# are supported too: https://github.com/travis-ci/dpl
+deploy:
+  type: deploy
+  environment: production
+  script:
+  - rsync -rltpDh --chown=asiwww:asiwww ./build tramwaj.asi.wroclaw.pl:fcgi/asi.wroclaw.pl
