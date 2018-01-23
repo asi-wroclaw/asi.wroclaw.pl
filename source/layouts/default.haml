@@ -9,5 +9,7 @@
       Blog Title#{' - ' + current_article.title unless current_article.nil?}
     = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
   %body
+  
     #main{:role => "main"}
       = yield
+   
