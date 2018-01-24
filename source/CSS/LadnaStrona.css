@@ -7,8 +7,7 @@
     margin-right:25%;
     padding-bottom: auto;
     text-orientation: bottom;
-    border-image: url("/CSS/line.png");
-    border: 10px solid transparent;
+    border-bottom: 1px solid;
 }
 
 a.a_nav{
@@ -20,14 +19,14 @@ a.a_nav:hover{
 }
 li.text{
 
-    margin: 35px 15px 0px 15px;
+    margin: 35px 1% 0px 1%;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
 img.img_nav{
-    margin-right:150px;
+    margin-right:50%;
     width:auto; 
     height:auto;
 }
@@ -41,6 +40,7 @@ li ul .nav{
 /* Articles list */
 #content{
     margin-left:25%;
+    
     float: left;
     width: 700px;
     position: relative;
@@ -92,9 +92,21 @@ img{
 
 .aside{
     font-size:18px;
+    margin-bottom:10%;
 }
 
 .xd{
-    margin-left:auto;
-    margin-right:auto;
+  color:black;
+  margin: 5px 0px;
+
 }
+.right_side{
+
+    color:black;
+}
+.right_side:hover{
+
+    color:black;
+}
+
+
