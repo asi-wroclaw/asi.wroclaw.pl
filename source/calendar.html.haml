@@ -19,6 +19,7 @@ pageable: true
     %li
       = link_to article.title, article,class:"right_side"
       %span= article.date.strftime('%b %e')
+  %p
   - if paginate && num_pages > 1
     %p
       Page #{page_number} of #{num_pages}    
