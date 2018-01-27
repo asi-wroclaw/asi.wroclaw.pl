@@ -8,6 +8,8 @@ Time.zone = "Europe/Warsaw"
 
 page "/index.html", layout: "blog"
 page "/about.html", layout: "default"
+page "/contacts.html", layout: "blog"
+page "/calendar.html", layout: "blog"
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
