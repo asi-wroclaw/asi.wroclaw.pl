@@ -50,6 +50,11 @@ li ul .nav{
     margin-bottom: 10px;
     margin-top:2%;
 }
+
+.article_date{
+
+    font-size:20px;
+}
 /* End of articles list */
 
 
@@ -84,12 +89,12 @@ img{
 /*End of Articles */
 
 .article{
-    color:pink;
+    color:#e67300;
 }
 
 .article:hover{
 
-    color:pink;
+    color:#e67300;
 }
 
 .aside{
