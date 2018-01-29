@@ -22,11 +22,13 @@ li.text{
     margin: 35px 1% 0px 1%;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
 }
 
 
-img.img_nav{
-    margin-right:50%;
+.img_nav{
+    margin-right:20%;
+    
     width:auto; 
     height:auto;
 }
@@ -110,3 +112,7 @@ img{
 }
 
 
+.space{
+
+    margin-right:50%;
+}
