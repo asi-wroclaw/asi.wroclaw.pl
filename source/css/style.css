@@ -42,9 +42,7 @@ li ul .nav{
 /* Articles list */
 #content{
     margin-left:25%;
-    
-    float: left;
-    width: 700px;
+    margin-right:25%;
     position: relative;
     padding: 15px;
     margin-bottom: 10px;
@@ -58,17 +56,7 @@ li ul .nav{
 /* End of articles list */
 
 
-/* Recent articles, Tags, By Year */
-aside{
-    float: left;
-    width: 220px;
-    position: relative;
-    padding: 15px;
-    margin-bottom: 10px;
-    font-size:12px;
-    margin-top:5%;
-}
-/*End of Recent articles, Tags, By Year */
+
 
 
 /* Articles */
@@ -78,7 +66,7 @@ aside{
     width: 700px;
     position: relative;
     padding: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 2%;
     margin-top:2%;
 
 }
@@ -104,12 +92,13 @@ img{
 
 .xd{
   color:black;
-  margin: 5px 0px;
+  margin: 2% 0px;
 
 }
 .right_side{
 
     color:black;
+    font-size:12px;
 }
 .right_side:hover{
 
@@ -126,4 +115,3 @@ img{
     float:left;
     margin-right:5%;
 }
-
