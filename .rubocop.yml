@@ -1,0 +1,9 @@
+inherit_from:
+  - http://relaxed.ruby.style/rubocop.yml
+
+AllCops:
+  DisplayCopNames: true
+  TargetRubyVersion: 2.4
+
+StringLiterals:
+  EnforcedStyle: double_quotes

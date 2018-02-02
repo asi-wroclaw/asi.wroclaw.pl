@@ -1,0 +1,57 @@
+PreCommit:
+  ALL:
+    quiet: false
+
+  BundleCheck:
+    enabled: true
+    description: "Checking Gemfile dependencies"
+    required_executable: "bundle"
+    flags: ["check"]
+    install_command: "gem install bundler"
+    include:
+      - "Gemfile"
+      - "Gemfile.lock"
+      - "*.gemspec"
+      - "*.gemspec"
+
+  ImageOptim:
+    enabled: true
+    description: "Checking for optimizable images"
+    required_executable: "image_optim"
+    install_command: "gem install image_optim"
+    include:
+      - "**/*.gif"
+      - "**/*.jpeg"
+      - "**/*.jpg"
+      - "**/*.png"
+      - "**/*.svg"
+
+  HamlLint:
+    enabled: true
+    description: "Analyzing with haml-lint"
+    required_executable: "haml-lint"
+    install_command: "gem install haml_lint"
+    include: "**/*.haml*"
+
+  ScssLint:
+    enabled: true
+    description: "Analyzing with scss-lint"
+    required_executable: "scss-lint"
+    install_command: "gem install scss_lint"
+    problem_on_unmodified_line: ignore
+    include: "**/*.css"
+
+CommitMsg:
+  ALL:
+    quiet: true
+  CapitalizedSubject:
+    enabled: false
+    description: "Checking subject capitalization"
+  EmptyMessage:
+    enabled: true
+    description: "Checking for empty commit message"
+  TextWidth:
+    enabled: true
+    description: "Checking text width"
+    max_subject_width: 60
+    max_body_width: 100

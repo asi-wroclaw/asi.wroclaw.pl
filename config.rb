@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Haml::TempleEngine.disable_option_validator!
 set :haml, format: :html5
 Time.zone = "Europe/Warsaw"
@@ -47,8 +49,8 @@ end
 page "/feed.xml", layout: false
 # Reload the browser automatically whenever files change
 configure :development do
-   activate :livereload
- end
+  activate :livereload
+end
 
 # Methods defined in the helpers block are available in templates
 # helpers do
