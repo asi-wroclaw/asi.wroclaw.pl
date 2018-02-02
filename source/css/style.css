@@ -22,11 +22,13 @@ li.text{
     margin: 35px 1% 0px 1%;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
 }
 
 
-img.img_nav{
-    margin-right:50%;
+.img_nav{
+    margin-right:20%;
+    
     width:auto; 
     height:auto;
 }
@@ -47,6 +49,11 @@ li ul .nav{
     padding: 15px;
     margin-bottom: 10px;
     margin-top:2%;
+}
+
+.article_date{
+
+    font-size:20px;
 }
 /* End of articles list */
 
@@ -82,12 +89,12 @@ img{
 /*End of Articles */
 
 .article{
-    color:pink;
+    color:#e67300;
 }
 
 .article:hover{
 
-    color:pink;
+    color:#e67300;
 }
 
 .aside{
@@ -109,4 +116,15 @@ img{
     color:black;
 }
 
+
+.space{
+
+    margin-right:50%;
+}
+
+.dx{
+    float:left;
+    margin-right:5%;
+}
+}
 
