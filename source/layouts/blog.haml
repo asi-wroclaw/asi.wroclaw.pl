@@ -10,32 +10,33 @@
     = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
   %body
     = partial 'menu.haml'
-    /* Articles*/
-    #main#content{:role => "main"}
-      %h1 #{current_article.title unless current_article.nil?}
-      = yield
-    
-    %aside
-      %h2.aside Spotkania ASI
-      %p Spotykamy się w każdy wtorek o godzinie 18:00 w naszej siedzibie, która mieści się na ulicy Grunwaldzkiej 61, w pok. nr 1 (wejście boczne budynku T3).
-      %h2.aside Social
-      %a.right_side{:href =>"https://www.facebook.com/groups/175529160840/" ,:target => "_blank"} Grupa ASI
-      %br
-      %a.right_side{:href =>"https://www.facebook.com/ASI.PWr/" ,:target => "_blank"} Fanpage ASI
-      %br
-      %a.right_side{:href =>"https://plus.google.com/+AkademickieStowarzyszenieInformatycznePWR" ,:target => "_blank"} Google+
-      %br
-      %p tel.: +48 575 904 929
-      %p
-      %h2.aside Recent Articles
-      - blog.articles[0...10].each do |article|
-        %p.xd
-          = link_to article.title, article,class:"right_side"
-          %span -
-          %span= article.date.strftime('%b %e')
-      %h2.aside Tags
-      - blog.tags.each do |tag, articles|
-        %p.xd= link_to "#{tag} (#{articles.size})", tag_path(tag),lass:"right_side"
-      %h2.aside By Year
-      - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
-        %p.xd= link_to "#{year} (#{articles.size})", blog_year_path(year),class:"right_side"
+    .row#content
+      .col-sm-9
+        #main{:role => "main"}
+          %h1 #{current_article.title unless current_article.nil?}
+          = yield
+      
+      .col-sm-3
+        %h2.aside Spotkania ASI
+        %p.right_side Spotykamy się w każdy wtorek o godzinie 18:00 w naszej siedzibie, która mieści się na ulicy Grunwaldzkiej 61, w pok. nr 1 (wejście boczne budynku T3).
+        %h2.aside Social
+        %a.right_side{:href =>"https://www.facebook.com/groups/175529160840/" ,:target => "_blank"} Grupa ASI
+        %br
+        %a.right_side{:href =>"https://www.facebook.com/ASI.PWr/" ,:target => "_blank"} Fanpage ASI
+        %br
+        %a.right_side{:href =>"https://plus.google.com/+AkademickieStowarzyszenieInformatycznePWR" ,:target => "_blank"} Google+
+        %br
+        %p.right_side tel.: +48 575 904 929
+        %p
+        %h2.aside Recent Articles
+        - blog.articles[0...10].each do |article|
+          %p.right_side
+            = link_to article.title, article,class:"right_side"
+            %span -
+            %span= article.date.strftime('%b %e')
+        %h2.aside Tags
+        - blog.tags.each do |tag, articles|
+          %p.xd= link_to "#{tag} (#{articles.size})", tag_path(tag),lass:"right_side"
+        %h2.aside By Year
+        - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
+          %p.xd= link_to "#{year} (#{articles.size})", blog_year_path(year),class:"right_side"
