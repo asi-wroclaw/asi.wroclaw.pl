@@ -9,14 +9,15 @@
       Blog Title#{' - ' + current_article.title unless current_article.nil?}
     = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
   %body
+  .flexbox-container
     = partial 'menu.haml'
-    .row#content
-      .col-sm-9
+    .flexbox_container_main
+      .flex_articles
         #main{:role => "main"}
           %h1 #{current_article.title unless current_article.nil?}
           = yield
       
-      .col-sm-3
+      .flex_right_side
         %h2.aside Spotkania ASI
         %p.right_side Spotykamy się w każdy wtorek o godzinie 18:00 w naszej siedzibie, która mieści się na ulicy Grunwaldzkiej 61, w pok. nr 1 (wejście boczne budynku T3).
         %h2.aside Social
