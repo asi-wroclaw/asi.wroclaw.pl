@@ -13,7 +13,6 @@ gem "middleman-pry"
 gem "nokogiri"
 gem "redcarpet", "~> 3.3", ">= 3.3.3"
 gem "therubyracer"
-gem "bootstrap-sass"
 
 group :development do
   gem "erb2haml"
