@@ -20,6 +20,7 @@ page '/*.txt', layout: false
 # Helpers
 ###
 
+activate :i18n, :mount_at_root => :pl 
 activate :directory_indexes
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
@@ -69,4 +70,5 @@ configure :build do
 
   # Minify Javascript on build
   activate :minify_javascript
+
 end
