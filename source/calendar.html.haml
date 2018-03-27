@@ -1,9 +1,6 @@
 ---
 pageable: true
 ---
-
-= partial 'menu.haml'
-
 %h1#content
   Archive for
   - case page_type
@@ -22,7 +19,7 @@ pageable: true
   %p
   - if paginate && num_pages > 1
     %p
-      Page #{page_number} of #{num_pages}    
+      Page #{page_number} of #{num_pages}
     - if paginate
       - if next_page
         %p= link_to 'Next page', next_page
