@@ -12,6 +12,7 @@
     %title
       Blog Title#{' - ' + current_article.title unless current_article.nil?}
     = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
+  = partial "menu.haml"
   %body
     = partial "menu.haml"
     %main.container

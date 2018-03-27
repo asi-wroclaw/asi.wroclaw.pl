@@ -1,20 +1,16 @@
 .container
-  .row
-    .col-md-12  
-      %ul.nav.nav-pills
-        %li
-        %li.img_nav
-          %a{:href=> "/"}
-            %img{:src=>"/css/logo.png" }
-        %li.text
-          %a.a_nav{:href => "about"} O nas
-        %li.text
-          %a.a_nav{:href => "#"} Rekrutacja
-        %li.text
-          %a.a_nav{:href => "/events"} Kalendarz
-        %li.text
-          %a.a_nav{:href => "#"} Projekty
-        %li.text
-          %a.a_nav{:href => "#"} Ludzie
-        %li.text
-          %a.a_nav{:href => "/contact"} Kontakt
+  %nav.navbar
+    %a.navbar-brand
+    %ul.nav.justify-content-end
+      %li.nav-item.active
+        %a.nav-link{ href:'/about' }O nas
+      %li.nav-item
+        %a.nav-link{ href:'#' } Rekrutacja
+      %li.nav-item
+        %a.nav-link{ href:'/events' } Kalendarz
+      %li.nav-item
+        %a.nav-link{ href:'#' } Projekty
+      %li.nav-item
+        %a.nav-link{ href:'#' } Ludzie
+      %li.nav-item
+        %a.nav-link{ href:'/contact' } Kontakt
