@@ -22,7 +22,7 @@
         .col-md-4
           %h2.aside= t('meetings')
           %p.right_side Spotykamy się w każdy wtorek o godzinie 18:00 w naszej siedzibie, która mieści się na ulicy Grunwaldzkiej 61, w pok. nr 1 (wejście boczne budynku T3).
-          %h2.aside= t('social.online') 
+          %h2.aside= t('social.online')
           %a.right_side{:href =>"https://www.facebook.com/groups/175529160840/" ,:target => "_blank"}= t('social.group')
           %br
           %a.right_side{:href =>"https://www.facebook.com/ASI.PWr/" ,:target => "_blank"}= t('social.fanpage')
@@ -34,12 +34,12 @@
           %h2.aside= t('recent')
           - blog.articles[0...10].each do |article|
             %p.right_side
-              = link_to article.title, article,class:"right_side"
+              = link_to article.title, article, class: "right_side"
               %span -
-              %span= article.date.strftime('%b %e')
+              %span= I18n.localize(article.date, format: "%Y-%m-%d")
           %h2.aside= t('tags')
           - blog.tags.each do |tag, articles|
-            %p.xd= link_to "#{tag} (#{articles.size})", tag_path(tag),lass:"right_side"
+            %p.xd= link_to "#{tag} (#{articles.size})", tag_path(tag), class:"right_side"
           %h2.aside= t('by_year')
           - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
             %p.xd= link_to "#{year} (#{articles.size})", blog_year_path(year),class:"right_side"

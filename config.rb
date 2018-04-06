@@ -2,6 +2,7 @@
 
 Haml::TempleEngine.disable_option_validator!
 set :haml, format: :html5
+I18n.default_locale = :pl
 Time.zone = "Europe/Warsaw"
 
 ###
@@ -20,7 +21,7 @@ page '/*.txt', layout: false
 # Helpers
 ###
 
-activate :i18n, :mount_at_root => :pl 
+activate :i18n, mount_at_root: :pl
 activate :directory_indexes
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths

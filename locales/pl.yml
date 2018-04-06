@@ -1,4 +1,5 @@
 pl:
+  pagination: "Strona %{page_number} z %{num_pages}"
   next_page: "Następna strona"
   previous_page: "Poprzednia strona"
   meetings:  "Spotkania ASI"
