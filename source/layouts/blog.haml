@@ -4,6 +4,7 @@
     %script{:crossorigin => "anonymous", :integrity => "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN", :src => "https://code.jquery.com/jquery-3.2.1.slim.min.js"}
     %script{:crossorigin => "anonymous", :integrity => "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q", :src => "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"}
     %link{:crossorigin => "anonymous", :href => "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css", :integrity => "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm", :rel => "stylesheet"}/
+    %link{:crossorigin => "anonymous", :href => "/css/style.css", :rel => "stylesheet"}/
     %script{:crossorigin => "anonymous", :integrity => "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl", :src => "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"}
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     %meta{:charset => "utf-8"}/
@@ -17,29 +18,20 @@
     %main.container
       .row
         .col-md-8
-          %h1 #{current_article.title unless current_article.nil?}
+          %h3 #{current_article.title unless current_article.nil?}
           = yield
         .col-md-4
           %h2.aside= t('meetings')
-          %p.right_side Spotykamy się w każdy wtorek o godzinie 18:00 w naszej siedzibie, która mieści się na ulicy Grunwaldzkiej 61, w pok. nr 1 (wejście boczne budynku T3).
+          %p Spotykamy się w każdy wtorek o godzinie 18:00 w naszej siedzibie, która mieści się na ulicy Grunwaldzkiej 61, w pok. nr 1 (wejście boczne budynku T3).
           %h2.aside= t('social.online')
-          %a.right_side{:href =>"https://www.facebook.com/groups/175529160840/" ,:target => "_blank"}= t('social.group')
+          %a{:href =>"https://www.facebook.com/groups/175529160840/" ,:target => "_blank"}= t('social.group')
           %br
-          %a.right_side{:href =>"https://www.facebook.com/ASI.PWr/" ,:target => "_blank"}= t('social.fanpage')
+          %a{:href =>"https://www.facebook.com/ASI.PWr/" ,:target => "_blank"}= t('social.fanpage')
           %br
-          %a.right_side{:href =>"https://plus.google.com/+AkademickieStowarzyszenieInformatycznePWR" ,:target => "_blank"} Google+
+          %a{:href =>"https://plus.google.com/+AkademickieStowarzyszenieInformatycznePWR" ,:target => "_blank"} Google+
           %br
-          %p.right_side= t('social.phone')
+          %p= t('social.phone')
           %p
-          %h2.aside= t('recent')
-          - blog.articles[0...10].each do |article|
-            %p.right_side
-              = link_to article.title, article, class: "right_side"
-              %span -
-              %span= I18n.localize(article.date, format: "%Y-%m-%d")
-          %h2.aside= t('tags')
-          - blog.tags.each do |tag, articles|
-            %p.xd= link_to "#{tag} (#{articles.size})", tag_path(tag), class:"right_side"
           %h2.aside= t('by_year')
           - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
-            %p.xd= link_to "#{year} (#{articles.size})", blog_year_path(year),class:"right_side"
+            %p= link_to "#{year} (#{articles.size})", blog_year_path(year)

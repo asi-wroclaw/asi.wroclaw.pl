@@ -1,0 +1,10 @@
+$primary-color: #d65502;
+$primary-dark: #9a3d00;
+
+a {
+  color: $primary-color;
+}
+
+a:hover {
+  color: $primary-dark;
+}

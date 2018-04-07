@@ -26,20 +26,13 @@ PreCommit:
       - "**/*.png"
       - "**/*.svg"
 
-  HamlLint:
-    enabled: true
-    description: "Analyzing with haml-lint"
-    required_executable: "haml-lint"
-    install_command: "gem install haml_lint"
-    include: "**/*.haml*"
-
   ScssLint:
     enabled: true
     description: "Analyzing with scss-lint"
     required_executable: "scss-lint"
     install_command: "gem install scss_lint"
     problem_on_unmodified_line: ignore
-    include: "**/*.css"
+    include: "source/**/*.css"
 
 CommitMsg:
   ALL:
