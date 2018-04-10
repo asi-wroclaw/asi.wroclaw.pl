@@ -9,10 +9,10 @@ Time.zone = "Europe/Warsaw"
 # Page options, layouts, aliases and proxies
 ###
 
-page "/index.html", layout: "blog"
+page "/index.html", layout: "default"
 page "/about.html", layout: "default"
-page "/contact.html", layout: "blog"
-page "/events.html", layout: "blog"
+page "/contact.html", layout: "default"
+page "/events.html", layout: "default"
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
@@ -31,7 +31,7 @@ activate :blog do |blog|
   # Matcher for blog source files
   # blog.sources = "{year}-{month}-{day}-{title}.html"
   # blog.taglink = "tags/{tag}.html"
-  blog.layout = "blog"
+  blog.layout = "default"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = "{year}.html"

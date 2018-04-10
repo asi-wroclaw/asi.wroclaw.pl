@@ -6,9 +6,10 @@ pl:
   social:
     online: "ASI w Internecie"
     group: "Grupa ASI"
-    fanpage: "Fangage ASI"
+    fanpage: "Fanpage ASI"
     phone: "tel.: +48 575 904 929"
-  recent: "Najnowsze Artykuły"
+  recent: "Najnowsze artykuły"
   tags: "Tagi"
-  by_year: "Według Roku"
-
+  by_year: "Według roku"
+  archive_for_year: "Posty z roku"
+  back: "Wstecz"

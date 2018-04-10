@@ -1,30 +1,29 @@
 ---
 pageable: true
+per_page: 100
 ---
+= wrap_layout :default do
+  %h1#content
+    = I18n.t("archive_for_year")
+    - case page_type
+    - when 'day'
+      = Date.new(year, month, day).strftime('%b %e %Y')
+    - when 'month'
+      = Date.new(year, month, 1).strftime('%b %Y')
+    - when 'year'
+      = year
 
-= partial 'menu.haml'
-
-%h1#content
-  Archive for
-  - case page_type
-  - when 'day'
-    = Date.new(year, month, day).strftime('%b %e %Y')
-  - when 'month'
-    = Date.new(year, month, 1).strftime('%b %Y')
-  - when 'year'
-    = year
-
-%ul#content
-  - page_articles.each_with_index do |article, i|
-    %li
-      = link_to article.title, article
-      %span= article.date.strftime('%b %e')
-  %p
-  - if paginate && num_pages > 1
+  %ul#content
+    - page_articles.each_with_index do |article, i|
+      %li
+        = link_to article.title, article
+        %small.text-muted= I18n.localize(article.date, format: "%Y-%m-%d")
     %p
-      Page #{page_number} of #{num_pages}
-    - if paginate
-      - if next_page
-        %p= link_to t('next_page'), next_page
-      - if prev_page
-        %p= link_to t('previous_page'), prev_page
+    - if paginate && num_pages > 1
+      %p
+        =I18n.t(".pagination", page_number: page_number, num_pages: num_pages)
+      - if paginate
+        - if next_page
+          %p= link_to t('next_page'), next_page
+        - if prev_page
+          %p= link_to t('previous_page'), prev_page
