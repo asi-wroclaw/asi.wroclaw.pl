@@ -6,8 +6,11 @@ per_page: 10
 - page_articles.each_with_index do |article, i|
   .post
     %h3
-      = link_to article.title, article
-      %small.text-muted=  I18n.localize(article.date, format: "%Y-%m-%d")
+      .row.justify-content-between
+        .col-md-8.col-sm-12
+          = link_to article.title, article
+        .col-md-4.col-sm-12.text-md-right
+          %small.text-muted= I18n.localize(article.date, format: "%Y-%m-%d")
     %p
       = article.summary(250)
 
