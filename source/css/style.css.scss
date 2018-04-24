@@ -20,16 +20,26 @@ h1 {
 }
 
 div.left {
-  margin-right:2%;
   float:left;
+  margin-right: 1%;
+}
+
+div.center {
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 div.right {
-  margin-left:2%;
   float:right;
+  margin-left: 1%;
 }
 
 img.imgRight {
-  margin-left:2%;
-  float:right;
+  padding-left: 2%;
+  margin-left: 2%;
+}
+
+img.imgLeft {
+  padding-right: 2%;
+  margin-right: 2%;
 }
