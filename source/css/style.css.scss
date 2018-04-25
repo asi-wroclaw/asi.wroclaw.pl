@@ -13,40 +13,14 @@ h1 {
   color: $primary-color
 }
 
-.container {
+p {
   text-align: justify;
   text-justify: inter-word;
-  display: flex;
-}
-
-div.left {
-  float:left;
-  margin-right: 1%;
-}
-
-div.center {
-  margin-left: 1%;
-  margin-right: 1%;
-}
-
-div.right {
-  float:right;
-  margin-left: 1%;
-}
-
-img.imgRight {
-  padding-left: 2%;
-  margin-left: 2%;
-}
-
-img.imgLeft {
-  padding-right: 2%;
-  margin-right: 2%;
 }
 
 img.center {
   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
