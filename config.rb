@@ -13,6 +13,8 @@ page "/index.html", layout: "default"
 page "/about.html", layout: "default"
 page "/contact.html", layout: "default"
 page "/events.html", layout: "default"
+page "/recruitment.html", layout: "default"
+page "/page/*", layout: "default"
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false

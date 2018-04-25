@@ -8,3 +8,19 @@ a {
 a:hover {
   color: $primary-dark;
 }
+
+h1 {
+  color: $primary-color
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
