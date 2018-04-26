@@ -1,5 +1,5 @@
 .container
-  -config[:members].each do |member|
+  -data.members.Member.each do |member|
     -if member.type == type
       .mb-3
       .row.vertical-align
