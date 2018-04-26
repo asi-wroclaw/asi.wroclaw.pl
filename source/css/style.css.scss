@@ -24,3 +24,13 @@ img.center {
   margin-right: auto;
   width: 50%;
 }
+
+img.logo {
+  height: 90px;
+}
+
+@media screen and (max-width: 40em) {
+  img.logo {
+    height: 60px;
+  }
+}
