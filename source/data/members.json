@@ -1,0 +1,17 @@
+{
+  "Member": [
+    {
+      "name": "Michał Rypina",
+      "function":  "Prezez",
+      "type": 1
+    }, {
+      "name": "Tomasz Cybulski",
+      "function":  "Wiceprezes",
+      "type": 1
+    }, {
+      "name": "Jakub Dorda",
+      "function":  "Wiceprezes",
+      "type": 1
+    }
+  ]
+}

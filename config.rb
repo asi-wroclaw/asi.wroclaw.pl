@@ -1,4 +1,6 @@
 # frozen_string_literal: true
+require 'json'
+require 'model/member'
 
 Haml::TempleEngine.disable_option_validator!
 set :haml, format: :html5
@@ -14,6 +16,7 @@ page "/about.html", layout: "default"
 page "/contact.html", layout: "default"
 page "/events.html", layout: "default"
 page "/recruitment.html", layout: "default"
+page "/members.html", layout: "default"
 page "/page/*", layout: "default"
 page '/*.xml', layout: false
 page '/*.json', layout: false
@@ -22,6 +25,11 @@ page '/*.txt', layout: false
 ###
 # Helpers
 ###
+
+#todo implement MVC pattern for HAML templates (?)
+json_members = JSON.parse(File.read("source/data/members.json"))
+members_data = json_members['Member'].map { |rd| Member.new(rd['name'], rd['function'], rd['type']) }
+set :members, members_data
 
 activate :i18n, mount_at_root: :pl
 activate :directory_indexes

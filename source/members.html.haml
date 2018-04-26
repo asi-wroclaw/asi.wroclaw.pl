@@ -1,0 +1,22 @@
+#content
+  %h1 Ludzie
+
+  %p
+    Strona zawiera listę aktualnych aktywnych członków stowarzyszenia, wraz z ich funkcjami, kontaktem i projektami które koordynują lub koordynowali w przeszłości.
+
+  %h1 Zarząd
+
+  %p
+    Zarząd ASI, wybrany w dniu 17.10.2017 r.
+
+  .container
+    -config[:members].each do |member|
+      .mb-3
+      .row.vertical-align
+        .col-xs-6.col-md-6
+          %img{class: "img-reponsive text-center", src: "/img/unknown.jpg"}
+        .col-xs-6.col-md-6
+          %p
+            %h3 #{member.name}
+            %h6 #{member.function}
+      .mb-3
