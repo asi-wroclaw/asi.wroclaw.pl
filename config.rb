@@ -1,6 +1,4 @@
 # frozen_string_literal: true
-require 'json'
-require 'model/member'
 
 Haml::TempleEngine.disable_option_validator!
 set :haml, format: :html5

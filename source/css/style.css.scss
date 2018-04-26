@@ -40,6 +40,13 @@ img.logo {
 }
 
 .vertical-align {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+ul.alumni {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  list-style-position: inside;
 }
