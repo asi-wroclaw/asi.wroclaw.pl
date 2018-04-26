@@ -1,0 +1,314 @@
+{
+  "Member": [
+    {
+      "name": "Michał Rypina",
+      "function": "Prezez",
+      "img": "",
+      "type": 1
+    }, {
+      "name": "Tomasz Cybulski",
+      "function": "Wiceprezes",
+      "img": "",
+      "type": 1
+    }, {
+      "name": "Jakub Dorda",
+      "function": "Wiceprezes, koordynator Linux Academy",
+      "img": "",
+      "type": 1
+    }, {
+      "name": "Klaus Knopper",
+      "function": "Prelegent Sesji Linuksowej",
+      "img": "klausknopper.jpg",
+      "type": 2
+    }, {
+      "name": "Lennart Poettering",
+      "function": "Prelegent Sesji Linuksowej",
+      "img": "lennartpoettering.jpg",
+      "type": 2
+    }, {
+      "name": "Michał Zając",
+      "function": "Były prezes, koordynator projektów Ruby",
+      "img": "mzajac.jpg",
+      "type": 3
+    }, {
+      "name": "Julian Jurec",
+      "function": "Koordynator Sesja App na SL13, 14",
+      "img": "",
+      "type": 3
+    }, {
+      "name": "Kamil Tomasikiewicz",
+      "function": "Były koordynator Linux Academy",
+      "img": "",
+      "type": 3
+    }, {
+      "name": "Błażej Święcicki",
+      "function": "",
+      "img": "bswiecicki.jpg",
+      "type": 3
+    }, {
+      "name": "Jan Librowski",
+      "function": "",
+      "img": "",
+      "type": 3
+    }, {
+      "name": "Mateusz Budny",
+      "function": "",
+      "img": "",
+      "type": 3
+    }, {
+      "name": "Mateusz Osuch",
+      "function": "",
+      "img": "",
+      "type": 3
+    }, {
+      "name": "Agnieszka Musiał",
+      "function": "",
+      "img": "amusial.jpg",
+      "type": 3
+    }, {
+      "name": "Maja Kędras",
+      "function": "",
+      "img": "mkedras.jpg",
+      "type": 3
+    }, {
+      "name": "Szymon Cichy",
+      "function": "",
+      "img": "",
+      "type": 3
+    }, {
+      "name": "Aleksander Szatko",
+      "function": "",
+      "img": "",
+      "type": 3
+    }, {
+      "name": "Łukasz Burdyna",
+      "function": "",
+      "img": "",
+      "type": 3
+    }, {
+      "name": "Michał Karbownik",
+      "function": "",
+      "img": "",
+      "type": 3
+    }, {
+      "name": "Cezar Ciepielewski",
+      "function": "",
+      "img": "",
+      "type": 3
+    }, {
+      "name": "Jakub Ostapczuk",
+      "function": "",
+      "img": "",
+      "type": 3
+    }, {
+      "name": "Paweł Leniec",
+      "function": "",
+      "img": "",
+      "type": 3
+    }, {
+      "name": "Paweł Kalemba",
+      "type": 4
+    }, {
+      "name": "Daniel Aniszkiewicz",
+      "type": 4
+    }, {
+      "name": "Filip Drapejkowski",
+      "type": 4
+    }, {
+      "name": "Piotr Skorupa",
+      "type": 4
+    }, {
+      "name": "Dobrochna Przybyłek",
+      "type": 4
+    }, {
+      "name": "Wojciech Czerpak",
+      "type": 4
+    }, {
+      "name": "Adrian Antończyk",
+      "type": 4
+    }, {
+      "name": "Andrzej Konarski",
+      "type": 4
+    }, {
+      "name": "Krzysztof Świątek",
+      "type": 4
+    }, {
+      "name": "Adam Rogowski",
+      "type": 4
+    }, {
+      "name": "Szymon Szydełko",
+      "type": 4
+    }, {
+      "name": "Magdalena Płonka",
+      "type": 4
+    }, {
+      "name": "Rafał Czaja",
+      "type": 4
+    }, {
+      "name": "Daniel Woźniak",
+      "type": 4
+    }, {
+      "name": "Michał Smyk",
+      "type": 4
+    }, {
+      "name": "Kajetan Krykwiński",
+      "type": 4
+    }, {
+      "name": "Paweł Abramowicz",
+      "type": 4
+    }, {
+      "name": "Agata Arcimowicz",
+      "type": 4
+    }, {
+      "name": "Jakub Bąk",
+      "type": 4
+    }, {
+      "name": "Przemysław Biecek",
+      "type": 4
+    }, {
+      "name": "Wojciech Biela",
+      "type": 4
+    }, {
+      "name": "Urszula Cholawo",
+      "type": 4
+    }, {
+      "name": "Kamila Cholawska",
+      "type": 4
+    }, {
+      "name": "Łukasz Cichocki",
+      "type": 4
+    }, {
+      "name": "Patryk Cichy",
+      "type": 4
+    }, {
+      "name": "Szymon Datko",
+      "type": 4
+    }, {
+      "name": "Tomasz Diaków",
+      "type": 4
+    }, {
+      "name": "Sergiy Dorosh",
+      "type": 4
+    }, {
+      "name": "Łukasz Dudka",
+      "type": 4
+    }, {
+      "name": "Edyta Chrzanowska",
+      "type": 4
+    }, {
+      "name": "Tomasz Gabryś",
+      "type": 4
+    }, {
+      "name": "Grzegorz Głąbiński",
+      "type": 4
+    }, {
+      "name": "Jakub Gustak",
+      "type": 4
+    }, {
+      "name": "Krzysztof Habowski",
+      "type": 4
+    }, {
+      "name": "Grzegorz Haftarczyk",
+      "type": 4
+    }, {
+      "name": "Bartosz Hamielec",
+      "type": 4
+    }, {
+      "name": "Michał Jaworski",
+      "type": 4
+    }, {
+      "name": "Jakub Juszczakiewicz",
+      "type": 4
+    }, {
+      "name": "Paweł Kosmala",
+      "type": 4
+    }, {
+      "name": "Piotr Kościański",
+      "type": 4
+    }, {
+      "name": "Tomek Kowal",
+      "type": 4
+    }, {
+      "name": "Bogusz Kowalski",
+      "type": 4
+    }, {
+      "name": "Andrzej Kropiwnicki",
+      "type": 4
+    }, {
+      "name": "Mateusz Lenik",
+      "type": 4
+    }, {
+      "name": "Artur Lisiecki",
+      "type": 4
+    }, {
+      "name": "Jarosław Majchrzyk",
+      "type": 4
+    }, {
+      "name": "Tomasz Maluszycki",
+      "type": 4
+    }, {
+      "name": "Kosma Moczek",
+      "type": 4
+    }, {
+      "name": "Marcin Niemira",
+      "type": 4
+    }, {
+      "name": "Bartek Nowak",
+      "type": 4
+    }, {
+      "name": "Kamil Oborski",
+      "type": 4
+    }, {
+      "name": "Bartosz Sapijaszko",
+      "type": 4
+    }, {
+      "name": "Edyta Sapijaszko",
+      "type": 4
+    }, {
+      "name": "Marcin Ścieślicki",
+      "type": 4
+    }, {
+      "name": "Artur Skrzypczyk",
+      "type": 4
+    }, {
+      "name": "Maciej Skupień",
+      "type": 4
+    }, {
+      "name": "rzegorz Sobczyk",
+      "type": 4
+    }, {
+      "name": "Łukasz Spandel",
+      "type": 4
+    }, {
+      "name": "Andrzej Szreter",
+      "type": 4
+    }, {
+      "name": "Patryk Szymczak",
+      "type": 4
+    }, {
+      "name": "Tomasz Szymczyszyn",
+      "type": 4
+    }, {
+      "name": "Piotr Wasilewski",
+      "type": 4
+    }, {
+      "name": "Radosław Wiśniewski",
+      "type": 4
+    }, {
+      "name": "Szymon Włochowicz",
+      "type": 4
+    }, {
+      "name": "Kamil Włodarczyk",
+      "type": 4
+    }, {
+      "name": "Anna Wolarz",
+      "type": 4
+    }, {
+      "name": "Bartosz Woronicz",
+      "type": 4
+    }, {
+      "name": "Michał Zimnicki",
+      "type": 4
+    }
+  ]
+}

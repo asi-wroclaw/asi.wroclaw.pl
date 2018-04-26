@@ -13,6 +13,10 @@ h1 {
   color: $primary-color
 }
 
+h2 {
+  color: $primary-dark
+}
+
 p {
   text-align: justify;
   text-justify: inter-word;
@@ -23,4 +27,31 @@ img.center {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+img.logo {
+  height: 90px;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+ul.alumni {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  list-style-position: inside;
+}
+
+@media screen and (max-width: 40em) {
+  img.logo {
+    height: 60px;
+  }
+  ul.alumni {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
 }

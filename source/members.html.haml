@@ -1,0 +1,31 @@
+#content
+  %h1 Ludzie
+
+  %p
+    Strona zawiera listę aktualnych aktywnych członków stowarzyszenia, wraz z ich funkcjami, kontaktem i projektami które koordynują lub koordynowali w przeszłości.
+
+  %h2 Zarząd
+
+  %p
+    Zarząd ASI, wybrany w dniu 17.10.2017 r.
+
+  =partial 'member_template', locals: {type: 1}
+
+  %h2 Członkowie honorowi
+
+  =partial 'member_template', locals: {type: 2}
+
+  %h2 Członkowie
+
+  =partial 'member_template', locals: {type: 3}
+
+  %h2 Alumni
+
+  %p
+    Każda przygoda musi kiedyś się skończyć. To samo tyczy się studiów, a co za tym idzie uczestnictwa w życiu naszej organizacji. Poniżej wypisane są osoby, które w trakcie długich lat działania Akademickiego Stowarzyszenia Informatycznego udzielały się w naszej organizacji.
+
+  .container
+    %ul.alumni
+      -data.members.Member.each do |member|
+        -if member.type == 4
+          %li= member.name
