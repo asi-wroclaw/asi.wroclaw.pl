@@ -33,12 +33,6 @@ img.logo {
   height: 90px;
 }
 
-@media screen and (max-width: 40em) {
-  img.logo {
-    height: 60px;
-  }
-}
-
 .vertical-align {
   display: flex;
   align-items: center;
@@ -49,4 +43,15 @@ ul.alumni {
   -moz-column-count: 3;
   column-count: 3;
   list-style-position: inside;
+}
+
+@media screen and (max-width: 40em) {
+  img.logo {
+    height: 60px;
+  }
+  ul.alumni {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
 }

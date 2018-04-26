@@ -5,11 +5,11 @@
       .row.vertical-align
         .col-xs-6.col-md-6
           -if member.img == nil || member.img.length == 0
-            %img{class: "img-reponsive text-center rounded", src: "img/unknown.jpg"}
+            %img.img-fluid.text-center.rounded{src: "img/unknown.jpg"}
           - else
-            %img{class: "img-reponsive text-center rounded", src: "img/members/" + member.img}
+            %img.img-fluid.text-center.rounded{src: "img/members/" + member.img}
         .col-xs-6.col-md-6
           %p
-            %h3 #{member.name}
-            %h6 #{member.function}
+            %h3= member.name
+            %h6= member.function
       .mb-3
