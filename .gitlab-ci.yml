@@ -11,8 +11,12 @@ cache:
 
 before_script:
   - apt-get update -y
-  - 'which ssh-agent || ( apt-get install openssh-client -y )'
-  - apt-get install -y rsync
+  - 'which ssh-agent || ( apt-get install openssh-client locales rsync -y )'
+  - echo "pl_PL UTF-8" > /etc/locale.gen
+  - locale-gen pl_PL.UTF-8
+  - export LANG=pl_PL.UTF-8
+  - export LANGUAGE=pl_PL:en
+  - export LC_ALL=pl_PL.UTF-8
   - eval $(ssh-agent -s)
   - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
   - mkdir -p ~/.ssh
@@ -20,6 +24,7 @@ before_script:
   - ruby -v
   - gem install bundler  --no-ri --no-rdoc
   - bundle install -j $(nproc) --path vendor
+
 
 middleman:
   script:
