@@ -9,15 +9,15 @@
   %p
     Zarząd ASI, wybrany w dniu 17.10.2017 r.
 
-  =partial 'member_template', locals: {type: 1}
+  = partial 'member_template', locals: { type: 1 }
 
   %h2 Członkowie honorowi
 
-  =partial 'member_template', locals: {type: 2}
+  = partial 'member_template', locals: { type: 2 }
 
   %h2 Członkowie
 
-  =partial 'member_template', locals: {type: 3}
+  = partial 'member_template', locals: { type: 3 }
 
   %h2 Alumni
 
@@ -26,6 +26,6 @@
 
   .container
     %ul.alumni
-      -data.members.Member.each do |member|
-        -if member.type == 4
+      - data.members.members.each do |member|
+        - if member.type == 4
           %li= member.name

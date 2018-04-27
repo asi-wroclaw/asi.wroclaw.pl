@@ -1,6 +1,6 @@
 .container
-  -data.members.Member.each do |member|
-    -if member.type == type
+  - data.members.members.each do |member|
+    - if member["type"] == type
       .mb-3
       .row.vertical-align
         .col-xs-6.col-md-6
