@@ -27,5 +27,5 @@
   .container
     %ul.alumni
       - data.members.members.each do |member|
-        - if member.type == 4
+        - if member["type"] == 4
           %li= member.name

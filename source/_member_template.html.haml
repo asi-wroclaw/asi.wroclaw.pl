@@ -5,9 +5,9 @@
       .row.vertical-align
         .col-xs-6.col-md-6
           -if member.img == nil || member.img.length == 0
-            %img.img-fluid.text-center.rounded{src: "img/unknown.jpg"}
+            = image_tag "img/unknown.jpg", class: "img-fluid text-center rounded"
           - else
-            %img.img-fluid.text-center.rounded{src: "img/members/" + member.img}
+            = image_tag "img/members/#{member.img}", class: "img-fluid text-center rounded"
         .col-xs-6.col-md-6
           %p
             %h3= member.name
