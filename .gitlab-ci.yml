@@ -11,7 +11,7 @@ cache:
 
 before_script:
   - apt-get update -y
-  - 'which ssh-agent || ( apt-get install openssh-client locales rsync -y )'
+  - apt-get install -y openssh-client rsync locales
   - echo "pl_PL UTF-8" > /etc/locale.gen
   - locale-gen pl_PL.UTF-8
   - export LANG=pl_PL.UTF-8
