@@ -1,4 +1,4 @@
-Aplikacja przewodnik po wydarzeniu organizowanym przez Samorząd Wydziału Chemicznego oraz kampusie PWR -
+Aplikacja przewodnik po wydarzeniu oraz kampusie PWR organizowanym przez Samorząd Wydziału Chemicznego -
 <a href="https://labday.pwr.edu.pl/" target="_blank">LabDay</a>
 
 Jest to wydarzenie kierowane do licealistów i studentów zainteresowanych naukami z dziedzin chemii i biologii, promujące Politechnikę Wrocławską.

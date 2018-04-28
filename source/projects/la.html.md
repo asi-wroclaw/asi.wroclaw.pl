@@ -4,9 +4,12 @@ Tematyka tych spotkań to nie tylko Linux, ale również szeroko pojęta informa
 
 ![LaLogo](projects/logo-la.jpg){:class="img-reponsive text-center"}
 
-Informacje o nadchodzących wydarzeniach, są umieszczane w dziale Aktualności.
+Informacje o nadchodzących wydarzeniach, są umieszczane na naszym blogu oraz fanpagu na Facebook'u
 
 Koordynator: Jakub Dorda
 
 LA PWR:
 <a href="http://linuxacademy.pl" target="_blank">linuxacademy.pl</a>
+<br/>
+Fanpage Fb:
+<a href="https://web.facebook.com/LinuxAcademyPWR/" target="_blank">LinuxAcademyPWR</a>

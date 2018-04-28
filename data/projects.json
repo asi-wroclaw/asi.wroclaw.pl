@@ -11,9 +11,9 @@
       "img": "sesja-app.jpg",
       "type": 1
     }, {
-      "name": "Finansowanie",
-      "info": "projects/finansowanie",
-      "img": "",
+      "name": "LabDay",
+      "info": "projects/labday",
+      "img": "labday.png",
       "type": 1
     }, {
       "name": "Linux Academy",
@@ -21,15 +21,55 @@
       "img": "la.jpg",
       "type": 1
     }, {
-      "name": "LabDay",
-      "info": "projects/labday",
-      "img": "labday.png",
+      "name": "Finansowanie",
+      "info": "projects/finansowanie",
+      "img": "",
+      "type": 1
+    }, {
+      "name": "SSC App",
+      "info": "projects/ssc",
+      "img": "ssc.png",
       "type": 1
     }, {
       "name": "Konferansjer",
       "info": "projects/konferansjer",
       "img": "konferansjer.png",
       "type": 1
+    }, {
+      "name": "Nurupo",
+      "info": "projects/nurupo",
+      "img": "nurupo.jpg",
+      "type": 2
+    }, {
+      "name": "Etalune",
+      "info": "projects/etalune",
+      "img": "",
+      "type": 2
+    }, {
+      "name": "Geek’s Night",
+      "info": "projects/geeks-night",
+      "img": "geeksnight.jpg",
+      "type": 2
+    }, {
+      "name": "OpenKnowledge",
+      "info": "projects/open-knowledge",
+      "img": "openknowledge.jpg",
+      "type": 2
+    }, {
+      "name": "Streaming pochodu",
+      "info": "projects/stream",
+      "img": "pochod.jpg",
+      "type": 2
+    }, {
+      "name": "Rajd Mechanika 2015",
+      "info": "projects/rajd",
+      "img": "rajd-mechanika.jpg",
+      "type": 2
+    }, {
+      "name": "Juwenalia 2015 - Aplikacja mobilna",
+      "info": "projects/juwenalia2015",
+      "img": "apka_juwenalia.jpg",
+      "type": 2
     }
   ]
 }

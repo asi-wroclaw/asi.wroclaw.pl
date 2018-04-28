@@ -7,3 +7,6 @@ Koordynator 15 edycji Sesji Linuksowej: Daniel Aniszkiewicz
 
 Strona SL:
 <a href="http://15.sesja.linuksowa.pl/pl" target="_blank">15.sesja.linuksowa.pl</a>
+
+Nagrania prelekcji z Sesji Linuksowej można znaleźć na 
+<a href="https://www.youtube.com/user/pwrasi" target="_blank">naszym profilu na YouTube</a>
