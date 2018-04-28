@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "name": "Sesja Linuksowa",
+      "info": "projects/sl",
+      "img": "sl14.jpg",
+      "type": 1
+    }, {
+      "name": "Linux Academy",
+      "info": "",
+      "img": "",
+      "type": 1
+    }, {
+      "name": "Linux Academy",
+      "info": "",
+      "img": "",
+      "type": 1
+    }, {
+      "name": "Sesja Linuksowa",
+      "info": "projects/sl",
+      "img": "sl14.jpg",
+      "type": 1
+    }
+  ]
+}

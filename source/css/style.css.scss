@@ -17,6 +17,10 @@ h2 {
   color: $primary-dark
 }
 
+h4 {
+  color: $primary-dark
+}
+
 p {
   text-align: justify;
   text-justify: inter-word;
@@ -43,6 +47,14 @@ ul.alumni {
   -moz-column-count: 3;
   column-count: 3;
   list-style-position: inside;
+}
+
+.padding-top{
+  padding-top: 20px;
+}
+
+.card-columns {
+  column-count: 2;
 }
 
 @media screen and (max-width: 40em) {
