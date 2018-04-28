@@ -3,7 +3,7 @@ Aplikacja przewodnik po wydarzeniu oraz kampusie PWR organizowanym przez Samorz�
 
 Jest to wydarzenie kierowane do licealistów i studentów zainteresowanych naukami z dziedzin chemii i biologii, promujące Politechnikę Wrocławską.
 
-Pierwszy LabDay odbył się 24 marca 2018 r., aplikacja będzie rozwijana między kolejnymi edycjami wydarzeni.
+Pierwszy LabDay odbył się 24 marca 2018 r., aplikacja będzie rozwijana między kolejnymi edycjami wydarzenia.
 
 Android: Jakub Dorda
 <br>
