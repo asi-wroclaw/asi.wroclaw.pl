@@ -6,4 +6,4 @@ W trakcie Sesji odbywają się wykłady prowadzone przez ekspertów, przedstawic
 Koordynator 15 edycji Sesji Linuksowej: Daniel Aniszkiewicz
 
 Strona SL:
-<a href="http://15.sesja.linuksowa.pl/pl" target="_blank">15.sesja.linuksowa.pl/pl</a>
+<a href="http://15.sesja.linuksowa.pl/pl" target="_blank">15.sesja.linuksowa.pl</a>

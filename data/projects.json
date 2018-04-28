@@ -6,19 +6,29 @@
       "img": "sl14.jpg",
       "type": 1
     }, {
-      "name": "Linux Academy",
-      "info": "",
+      "name": "SesjaApp",
+      "info": "projects/sesjaapp",
+      "img": "sesja-app.jpg",
+      "type": 1
+    }, {
+      "name": "Finansowanie",
+      "info": "projects/finansowanie",
       "img": "",
       "type": 1
     }, {
       "name": "Linux Academy",
-      "info": "",
-      "img": "",
+      "info": "projects/la",
+      "img": "la.jpg",
       "type": 1
     }, {
-      "name": "Sesja Linuksowa",
-      "info": "projects/sl",
-      "img": "sl14.jpg",
+      "name": "LabDay",
+      "info": "projects/labday",
+      "img": "labday.png",
+      "type": 1
+    }, {
+      "name": "Konferansjer",
+      "info": "projects/konferansjer",
+      "img": "konferansjer.png",
       "type": 1
     }
   ]
