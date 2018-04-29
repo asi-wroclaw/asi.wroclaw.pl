@@ -1,0 +1,16 @@
+#content
+  %h1 Aktualne projekty
+  %p
+    Poniżej znajduje się lista projektów realizowanych obecnie w ramach działalności ASI.
+
+  %div.card-columns
+    = partial 'project_template', locals: { type: 1 }
+
+  %hr
+
+  %h1 Archiwum projektów
+  %p
+    Tu przedstawiamy niektóre z projektów, które Akademickie Stowarzyszenie Informatyczne realizowało w ostatnich latach.
+
+  %div.card-columns
+    = partial 'project_template', locals: { type: 2 }

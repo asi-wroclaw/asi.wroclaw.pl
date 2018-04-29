@@ -17,6 +17,10 @@ h2 {
   color: $primary-dark
 }
 
+h4 {
+  color: $primary-color
+}
+
 p {
   text-align: justify;
   text-justify: inter-word;
@@ -45,6 +49,18 @@ ul.alumni {
   list-style-position: inside;
 }
 
+.padding-top{
+  padding-top: 20px;
+}
+
+.card-columns {
+  column-count: 2;
+}
+
+div.card.shadow {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
 @media screen and (max-width: 40em) {
   img.logo {
     height: 60px;
@@ -52,6 +68,9 @@ ul.alumni {
   ul.alumni {
     -webkit-column-count: 1;
     -moz-column-count: 1;
+    column-count: 1;
+  }
+  .card-columns {
     column-count: 1;
   }
 }
