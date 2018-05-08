@@ -3,6 +3,3 @@ title: Geek's Night 2.0
 date: 2010-02-18 02:16:08 +0100
 ---
 Kolejna impreza z cyklu Geek's Night odbędzie się już 20 marca. Ponownie tematem imprezy będzie szeroko rozumiane bezpieczeństwo systemów. Zapraszamy do rejestracji i zgłaszania własnych tematów prelekcji.
-
-Szczegółowe informacje znajdziesz [tutaj](http://www.asi.pwr.wroc.pl/geeks-night-2/).
-
