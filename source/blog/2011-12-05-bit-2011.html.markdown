@@ -10,10 +10,12 @@ Niedługo, bo **9 grudnia** nadchodzi kolejna edycja **BITu**. BIT, czyli Best I
 - Turniej Starcrafta
 - Turniej DotA
 Szczególną uwagę warto zwrócić na konkurs programistyczny, ponieważ będzie dość nietypowy. Zamiast standardowych zadań algorytmicznych, będzie należało napisać aplikację webową. Ale to nie koniec - oceniane będzie nie tylko wykonanie konkretnego zadania, jak to zwykle bywa, ale też własna inwencja. Jeśli więc uważasz się za osobę twórczą i wiesz cokolwiek na temat technologii webowych - przyjdź i pokaż co potrafisz. Nasza rola we współpracy z BEST-em, poza obsługą techniczną całego wydarzenia, polega właśnie na organizacji tego konkursu. Przydatne dane:
-- **Czas** : 9 grudnia 2011 r., od godziny 10:30 ([dokładny harmonogram](http://www.best.wroclaw.pl/bit/informacje/plan-imprzey))
+- **Czas** : 9 grudnia 2011 r., od godziny 10:30
 - **Miejsce:** Stołówka Akademicka PWr (nad pubem "Dziekanat")
+
 Linki:
-- [Regulamin konkursu programistyczengo](http://www.best.wroclaw.pl/bit/images/patronaty/prog2.pdf)
+
 - [Strona BITu](http://www.best.wroclaw.pl/bit/)
 - [Strona BESTu](http://www.best.wroclaw.pl/)
+
 Zapraszamy!

@@ -2,7 +2,10 @@
 title: TechCamp #22
 date: 2014-11-16 13:19:24 +0100
 ---
-Teraz coś dla entuzjastów C++ ! Już 26 listopada, we Wrocławskim klubie Fuga Mundi o 18.00 odbędzie się TechCamp#22. Udział w wydarzeniu jest bezpłatny, wystarczy zarejestrować się [tutaj.](http://www.techcamp22.evenea.pl)Organizatorzy zapewniają dwie interesujące prelekcje które poprowadzą:
+Teraz coś dla entuzjastów C++ ! Już 26 listopada, we Wrocławskim klubie Fuga Mundi o 18.00 odbędzie się TechCamp#22. Udział w wydarzeniu jest bezpłatny, wystarczy zarejestrować się
+[tutaj.](http://www.techcamp22.evenea.pl
+
+Organizatorzy zapewniają dwie interesujące prelekcje które poprowadzą:
 
 - Andrzej Krzemieński (znany z Andrzej's C++ blog)
 - Bartosz Szurgot (Nokia)
