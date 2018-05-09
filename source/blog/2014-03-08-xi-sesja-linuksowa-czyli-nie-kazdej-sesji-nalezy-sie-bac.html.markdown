@@ -2,7 +2,7 @@
 title: XI Sesja Linuksowa, czyli nie każdej sesji należy się bać
 date: 2014-03-08 14:56:13 +0100
 ---
-Sesja Linuksowa jest dwudniową konferencją poświęconą technologiom Open Source. Tegoroczna edycja odbędzie się w 5 i 6 kwietnia. Tradycyjnie miejscem spotkania będzie Politechnika Wrocławska, a wstęp będzie bezpłatny.[![att_11_linux_baner_738](http://www.asi.pwr.wroc.pl/wp-content/uploads/2014/03/att_11_linux_baner_738-300x64.png)](http://www.asi.pwr.wroc.pl/wp-content/uploads/2014/03/att_11_linux_baner_738.png)
+Sesja Linuksowa jest dwudniową konferencją poświęconą technologiom Open Source. Tegoroczna edycja odbędzie się w 5 i 6 kwietnia. Tradycyjnie miejscem spotkania będzie Politechnika Wrocławska, a wstęp będzie bezpłatny.[![att_11_linux_baner_738](http://www.asi.pwr.wroc.pl/wp-content/uploads/2014/03/att_11_linux_baner_738-300x64.png){:class="img-fluid"}](http://www.asi.pwr.wroc.pl/wp-content/uploads/2014/03/att_11_linux_baner_738.png){:class="img-fluid"}
 
 Jak co roku będzie można zapoznać się z najnowszymi trendami panującymi w świecie otwartego oprogramowania i wysłuchać przygotowanych przez ekspertów wystąpień.
 
