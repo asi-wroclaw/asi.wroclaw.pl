@@ -1,13 +1,13 @@
 {
   "members": [
     {
-      "name": "Tomasz Cybulski",
-      "function": "I Wiceprezes",
+      "name": "Jakub Dorda",
+      "function": "Prezes, koordynator Linux Academy",
       "img": "",
       "type": 1
     }, {
-      "name": "Jakub Dorda",
-      "function": "Prezes, koordynator Linux Academy",
+      "name": "Tomasz Cybulski",
+      "function": "I Wiceprezes",
       "img": "",
       "type": 1
     }, {
@@ -55,6 +55,16 @@
       "function": "Przewodniczący sądu koleżeńskiego",
       "img": "",
       "type": 3
+    },  {
+      "name": "Szymon Cichy",
+      "function": "Członek sądu koleżeńskiego",
+      "img": "",
+      "type": 3
+    }, {
+      "name": "Aleksander Szatko",
+      "function": "Członek sądu koleżeńskiego",
+      "img": "",
+      "type": 3
     }, {
       "name": "Agnieszka Musiał",
       "function": "Były członek sądu koleżeńskiego",
@@ -73,16 +83,6 @@
     }, {
       "name": "Mateusz Budny",
       "function": "",
-      "img": "",
-      "type": 3
-    }, {
-      "name": "Szymon Cichy",
-      "function": "Członek sądu koleżeńskiego",
-      "img": "",
-      "type": 3
-    }, {
-      "name": "Aleksander Szatko",
-      "function": "Członek sądu koleżeńskiego",
       "img": "",
       "type": 3
     }, {
