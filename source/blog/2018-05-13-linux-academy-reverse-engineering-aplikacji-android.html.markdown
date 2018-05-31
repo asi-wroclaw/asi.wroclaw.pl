@@ -11,4 +11,9 @@ Wydarzenie na Facebooku:
 <br>
 [facebook.com/events/1027930550694490/](https://web.facebook.com/events/1027930550694490/){:target="_blank"}
 
+update:
+<br>
+Repozytorium aplikacji pokazanej na prelekcji można znaleźć na Githubie Droids on Roids:
+[github.com/DroidsOnRoids/toast7-hackme](https://github.com/DroidsOnRoids/toast7-hackme){:target="_blank"}
+
 ![](blog/la-android-hack.jpg){:class="col-sm-12 img-responsive"}
