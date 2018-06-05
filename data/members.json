@@ -3,17 +3,17 @@
     {
       "name": "Jakub Dorda",
       "function": "Prezes, koordynator Linux Academy",
-      "img": "",
+      "img": "jdorda.jpg",
       "type": 1
     }, {
       "name": "Tomasz Cybulski",
       "function": "I Wiceprezes",
-      "img": "",
+      "img": "tcybulski.jpg",
       "type": 1
     }, {
       "name": "Łukasz Burdyna",
       "function": "II Wiceprezes",
-      "img": "",
+      "img": "lburdyna.jpg",
       "type": 1
     }, {
       "name": "Klaus Knopper",
@@ -38,12 +38,12 @@
     }, {
       "name": "Michał Rypina",
       "function": "Były prezes",
-      "img": "",
+      "img": "mrypina.jpg",
       "type": 3
     }, {
       "name": "Kamil Tomasikiewicz",
       "function": "Były koordynator Linux Academy",
-      "img": "",
+      "img": "ktomasikiewicz.jpg",
       "type": 3
     }, {
       "name": "Błażej Święcicki",
@@ -58,12 +58,12 @@
     },  {
       "name": "Szymon Cichy",
       "function": "Członek sądu koleżeńskiego",
-      "img": "",
+      "img": "scichy.jpg",
       "type": 3
     }, {
       "name": "Aleksander Szatko",
       "function": "Członek sądu koleżeńskiego",
-      "img": "",
+      "img": "aszatko.jpg",
       "type": 3
     }, {
       "name": "Agnieszka Musiał",
@@ -93,17 +93,17 @@
     }, {
       "name": "Cezar Ciepielewski",
       "function": "",
-      "img": "",
+      "img": "cciepielewski.jpg",
       "type": 3
     }, {
       "name": "Jakub Ostapczuk",
       "function": "",
-      "img": "",
+      "img": "jostapczuk.jpg",
       "type": 3
     }, {
       "name": "Paweł Leniec",
       "function": "",
-      "img": "",
+      "img": "pleniec.jpg",
       "type": 3
     }, {
       "name": "Paweł Kalemba",
