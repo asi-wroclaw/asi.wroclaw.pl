@@ -39,3 +39,9 @@
           %h2.aside= t('by_year')
           - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
             %p= link_to "#{year} (#{articles.size})", blog_year_path(year)
+      .row
+        .col-md-12.col-sm-12
+          %footer
+            %p.center
+              ="Akademickie Stowarzyszenie Informatyczne © #{Time.now.strftime("%Y")}"
+   
