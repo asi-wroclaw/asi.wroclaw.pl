@@ -1,0 +1,19 @@
+---
+title: "ASI partnerem HackYeah 2018!"
+date: 2018-08-19 20:30:00 +0200
+---
+
+Podobnie jak rok temu, Akademickie Stowarzyszenie Informatyczne zostało community partnerem hackathonu HackYeah. W tym roku HackYeah to nie tylko konkurs programowania, ale także festiwal IT łączący ze sobą meet-upy, warsztaty, prelekcje, stoiska oraz atrakcje gwarantujące dobrą zabawę. Tegoroczna edycja odbędzie się w dniach 24-25 listopada 2018 w Warszawie.
+
+Z tej okazji mamy dla Was specjalny kod promocyjny ze zniżką 40% na bilety. Przy rejestracji wystarczy podać kod: „ASI_goes_to_HackYeah!”. Zapisy już trwają!
+
+Rejestracja na stronie: 
+[hackyeah2018.evenea.pl](https://hackyeah2018.evenea.pl/){:target="_blank"}
+
+Cały dochód z biletów jest przeznaczony na wsparcie projektu Szkoła 3.0, czyli kursów programowania dla podopiecznych krakowskich domów dziecka.
+
+W tym roku delegacja ASI planuje spróbować swoich sił w hackathonie. Was też nie może zabraknąć, zapraszamy!
+
+[hackyeah.pl](https://hackyeah.pl/){:target="_blank"}
+
+![](blog/hackyeahcolor.png){:class="col-sm-8 img-responsive center"}
