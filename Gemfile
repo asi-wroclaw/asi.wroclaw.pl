@@ -20,7 +20,7 @@ group :development do
   gem "image_optim"
   gem "image_optim_pack"
   gem "overcommit"
-  gem "scss_lint"
   gem "pry"
   gem "pry-byebug"
+  gem "scss_lint"
 end
