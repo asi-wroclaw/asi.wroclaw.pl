@@ -36,11 +36,6 @@
       "img": "",
       "type": 3
     }, {
-      "name": "Michał Rypina",
-      "function": "Były prezes",
-      "img": "mrypina.jpg",
-      "type": 3
-    }, {
       "name": "Błażej Święcicki",
       "function": "Koordynator Nurupo",
       "img": "bswiecicki.jpg",
@@ -95,6 +90,14 @@
       "function": "",
       "img": "pleniec.jpg",
       "type": 3
+    }, {
+      "name": "Mateusz Sopiński",
+      "function": "",
+      "img": "msopinski.jpg",
+      "type": 3
+    }, {
+      "name": "Michał Rypina",
+      "type": 4
     }, {
       "name": "Kamil Tomasikiewicz",
       "type": 4
