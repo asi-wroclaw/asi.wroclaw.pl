@@ -22,7 +22,7 @@ before_script:
   - mkdir -p ~/.ssh
   - chmod 700 ~/.ssh
   - ruby -v
-  - gem install bundler  --no-ri --no-rdoc
+  - gem install bundler  --no-document
   - bundle install -j $(nproc) --path vendor
 
 
