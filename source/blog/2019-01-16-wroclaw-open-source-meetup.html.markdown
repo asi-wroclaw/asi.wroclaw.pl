@@ -1,5 +1,5 @@
 ---
-title: "Wroclaw Open Source Meetu"
+title: "Wroclaw Open Source Meetup"
 date: 2019-01-16 19:30:00 +0200
 ---
 
