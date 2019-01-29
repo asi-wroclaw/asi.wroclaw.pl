@@ -11,6 +11,7 @@ gem "middleman-livereload"
 gem "middleman-minify-html"
 gem "middleman-pry"
 gem "nokogiri"
+gem "rack", ">= 2.0.6"
 gem "redcarpet", "~> 3.3", ">= 3.3.3"
 gem "therubyracer"
 
