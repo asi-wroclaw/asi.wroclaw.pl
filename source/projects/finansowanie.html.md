@@ -11,4 +11,3 @@ W projekcie uczestniczą:
 - Tomasz Załupski
 - Miłosz Korman
 - Michał Karbownik
-- mekochanski (nick na GH) ???
