@@ -29,6 +29,10 @@ before_script:
 middleman:
   script:
   - bundle exec middleman build --clean --parallel --verbose
+  artifacts:
+    paths:
+      - build/
+    expire_in: 1 week
 
 # This deploy job uses a simple deploy flow to Heroku, other providers, e.g. AWS Elastic Beanstalk
 # are supported too: https://github.com/travis-ci/dpl
