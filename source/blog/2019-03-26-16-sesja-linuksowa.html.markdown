@@ -17,3 +17,5 @@ Naszym celem jest promowanie idei wolnego oprogramowania. Chcemy dotrzeć do ka�
 
 Więcej informacji na [stronie](https://16.sesja.linuksowa.pl){:target="_blank"}
 oraz wydarzeniu na [Facebook`u](https://www.facebook.com/events/391168128112581){:target="_blank"}
+
+Stream z wydarzenia dostępny na [YouTube](https://www.youtube.com/watch?v=7Kv9yMjB1-o){:target="_blank"}
