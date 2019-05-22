@@ -1,6 +1,6 @@
 ---
 title: "Programowanie w języku Rust"
-date: 2019-03-26 11:30:00 +0200
+date: 2019-05-22 11:30:00 +0200
 ---
 
 Już się pojawiła!
