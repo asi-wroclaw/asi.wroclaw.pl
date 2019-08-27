@@ -6,14 +6,14 @@
       "img": "jdorda.jpg",
       "type": 1
     }, {
-      "name": "Tomasz Cybulski",
-      "function": "I Wiceprezes",
-      "img": "tcybulski.jpg",
+      "name": "Marcin Kotas",
+      "function": "Wiceprezes",
+      "img": "",
       "type": 1
     }, {
-      "name": "Łukasz Burdyna",
-      "function": "II Wiceprezes, koordynator Linux Academy",
-      "img": "lburdyna.jpg",
+      "name": "Jakub Bosak",
+      "function": "Wiceprezes",
+      "img": "",
       "type": 1
     }, {
       "name": "Klaus Knopper",
@@ -26,15 +26,20 @@
       "img": "lennartpoettering.jpg",
       "type": 2
     }, {
+      "name": "Tomasz Cybulski",
+      "function": "I Wiceprezes",
+      "img": "tcybulski.jpg",
+      "type": 4
+    }, {
       "name": "Michał Zając",
       "function": "Były prezes, koordynator projektów Ruby",
       "img": "mzajac.jpg",
-      "type": 3
+      "type": 4
     }, {
       "name": "Julian Jurec",
       "function": "Koordynator Sesja App na SL13, 14",
       "img": "",
-      "type": 3
+      "type": 4
     }, {
       "name": "Błażej Święcicki",
       "function": "Koordynator Nurupo",
@@ -42,29 +47,24 @@
       "type": 3
     }, {
       "name": "Mateusz Osuch",
-      "function": "Przewodniczący sądu koleżeńskiego",
+      "function": "",
       "img": "",
-      "type": 3
+      "type": 4
     },  {
       "name": "Szymon Cichy",
-      "function": "Członek sądu koleżeńskiego",
+      "function": "",
       "img": "scichy.jpg",
-      "type": 3
-    }, {
-      "name": "Aleksander Szatko",
-      "function": "Członek sądu koleżeńskiego",
-      "img": "aszatko.jpg",
       "type": 3
     }, {
       "name": "Maja Kędras",
       "function": "ASI komiks",
       "img": "mkedras.jpg",
-      "type": 3
+      "type": 4
     }, {
       "name": "Jan Librowski",
       "function": "",
       "img": "",
-      "type": 3
+      "type": 4
     }, {
       "name": "Mateusz Budny",
       "function": "",
@@ -77,41 +77,26 @@
       "type": 3
     }, {
       "name": "Cezar Ciepielewski",
-      "function": "",
+      "function": "Przewodniczącym sądu koleżeńskiego",
       "img": "cciepielewski.jpg",
       "type": 3
     }, {
       "name": "Jakub Ostapczuk",
-      "function": "",
+      "function": "Członek sądu koleżeńskiego",
       "img": "jostapczuk.jpg",
       "type": 3
     }, {
       "name": "Paweł Leniec",
       "function": "",
       "img": "pleniec.jpg",
-      "type": 3
+      "type": 4
     }, {
       "name": "Mateusz Sopiński",
-      "function": "",
+      "function": "Członek sądu koleżeńskiego",
       "img": "msopinski.jpg",
       "type": 3
     }, {
       "name": "Jan Stoltman",
-      "function": "",
-      "img": "",
-      "type": 3
-    }, {
-      "name": "Jakub Bosak",
-      "function": "",
-      "img": "",
-      "type": 3
-    }, {
-      "name": "Patryk Szwed",
-      "function": "",
-      "img": "",
-      "type": 3
-    }, {
-      "name": "Marcin Kotas",
       "function": "",
       "img": "",
       "type": 3
