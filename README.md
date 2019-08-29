@@ -8,7 +8,7 @@ We use [Middleman](https://middlemanapp.com/) to generate static pages that get 
 
 ## Setup
 
-This guide assumes that you use either RVM or Rbenv.
+This guide assumes that you use either RVM or Rbenv and have installed Ruby version specified in [Gemfile](./Gemfile).
 
 1. `git clone git@github.com:asi-pwr/asi.wroclaw.pl.git`
 2. `cd asi.wroclaw.pl`

@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
+
+ruby "~> 2.6.0"
+
 gem "tzinfo-data", platforms: %i[mswin mingw jruby]
 gem "wdm", "~> 0.1.0", platforms: %i[mswin mingw]
 
