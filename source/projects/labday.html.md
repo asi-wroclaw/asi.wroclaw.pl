@@ -10,6 +10,6 @@ Android: Jakub Dorda
 <br>
 Backend w Django: Jan Stoltman
 <br>
-Backend w Springu: Jakub Bosak
+Backend w Springu, panel administratora (ReactJS): Jakub Bosak
 
 <a href="https://play.google.com/store/apps/details?id=com.jakdor.labday" target="_blank">LabDay na Google Play</a>
