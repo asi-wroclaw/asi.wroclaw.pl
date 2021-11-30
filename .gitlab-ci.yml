@@ -24,10 +24,10 @@ before_script:
 
 middleman:
   script:
-  - bundle exec middleman build --clean --parallel --verbose
+  - bundle exec middleman build --clean --parallel --build-dir=public
   artifacts:
     paths:
-      - build/
+      - public/
     expire_in: 1 week
 
 # This deploy job uses a simple deploy flow to Heroku, other providers, e.g. AWS Elastic Beanstalk
@@ -36,6 +36,4 @@ deploy:
   type: deploy
   environment: production
   script:
-  - echo "${SSH_PRIVATE_KEY}" > "${HOME}/.ssh/id_rsa"
-  - echo "${SSH_HOST_KEY}" >  "${HOME}/.ssh/known_hosts"
-  - rsync -hrvz --chown=asiwww:asiwww -e 'ssh -i id_rsa' build/ asiwww@tramwaj.asi.wroclaw.pl:fcgi/asi.wroclaw.pl
+  - bundle exec middleman build --clean --parallel --build-dir=public
