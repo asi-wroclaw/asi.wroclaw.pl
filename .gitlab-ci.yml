@@ -44,7 +44,7 @@ pages:
   - bundle exec middleman build --clean --parallel --build-dir=public
   artifacts:
     paths:
-    - public
+      - public
     only:
-    - master
+      - master
 
