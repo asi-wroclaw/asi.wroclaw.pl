@@ -2,19 +2,19 @@
   "members": [
     {
       "name": "Jakub Dorda",
-      "function": "Prezes",
+      "function": "Członek sądu koleżeńskiego",
       "img": "jdorda.jpg",
-      "type": 1
+      "type": 3
     },
     {
       "name": "Marcin Kotas",
-      "function": "Wiceprezes",
+      "function": "Były wiceprezes",
       "img": "",
-      "type": 1
+      "type": 3
     },
     {
       "name": "Jakub Bosak",
-      "function": "Wiceprezes",
+      "function": "Prezes",
       "img": "",
       "type": 1
     },
@@ -58,7 +58,7 @@
       "name": "Błażej Święcicki",
       "function": "Koordynator Nurupo",
       "img": "bswiecicki.jpg",
-      "type": 3
+      "type": 4
     },
     {
       "name": "Mateusz Osuch",
@@ -104,7 +104,7 @@
     },
     {
       "name": "Jakub Ostapczuk",
-      "function": "Członek sądu koleżeńskiego",
+      "function": "",
       "img": "jostapczuk.jpg",
       "type": 3
     },
@@ -116,9 +116,9 @@
     },
     {
       "name": "Mateusz Sopiński",
-      "function": "Członek sądu koleżeńskiego",
+      "function": "",
       "img": "msopinski.jpg",
-      "type": 3
+      "type": 4
     },
     {
       "name": "Jan Stoltman",
@@ -134,7 +134,7 @@
     },
     {
       "name": "Karol Kalbarczyk",
-      "function": "",
+      "function": "Członek sądu koleżeńskiego",
       "img": "",
       "type": 3
     },
@@ -146,7 +146,7 @@
     },
     {
       "name": "Julia Czarnasiak",
-      "function": "",
+      "function": "II Wiceprezes",
       "img": "",
       "type": 3
     },
@@ -164,7 +164,7 @@
     },
     {
       "name": "Arkadiusz Bała",
-      "function": "",
+      "function": "I Wiceprezes",
       "img": "",
       "type": 3
     },
@@ -176,6 +176,12 @@
     },
     {
       "name": "Paweł Wiśniewski",
+      "function": "",
+      "img": "",
+      "type": 3
+    },
+    {
+      "name": "Damian Raczkowski",
       "function": "",
       "img": "",
       "type": 3
