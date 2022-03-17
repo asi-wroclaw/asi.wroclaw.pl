@@ -37,3 +37,12 @@ deploy:
   environment: production
   script:
   - bundle exec middleman build --clean --parallel --build-dir=public
+
+pages: 
+  stage: deploy
+  script:
+  - bundle exec middleman build --clean --parallel --build-dir=public
+  artifacts:
+    paths:
+      - public
+
