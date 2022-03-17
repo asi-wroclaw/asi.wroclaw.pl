@@ -1,0 +1,6 @@
+---
+title: "Linux Academy - git101"
+date: 2019-11-17 11:30:00 +0200
+---
+
+Git - aktualnie najpopularniejszy system kontroli wersji na świecie. Ale czym jest system kontroli wersji? Jak go używać? Po co? W trakcie studiów przyda Ci się on nie jeden raz, a w życiu zawodowym jest niezbędną umiejętnością. Prelegent opowie nam o zasadzie działania Gita, podstawach jego obsługi oraz zaprezentuje nieco mniej znane funkcjonalności.
