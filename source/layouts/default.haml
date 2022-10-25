@@ -32,9 +32,8 @@
           %br
           %a{:href =>"https://www.facebook.com/ASI.PWr/" ,:target => "_blank"}= t('social.fanpage')
           %br
-          %a{:href =>"https://plus.google.com/+AkademickieStowarzyszenieInformatycznePWR" ,:target => "_blank"} Google+
+          %a{:href =>"https://discord.gg/nwdcrnk" ,:target => "_blank"} Discord
           %br
-          %p= t('social.phone')
           %p
           %h2.aside= t('by_year')
           - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
