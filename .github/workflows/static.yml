@@ -39,7 +39,7 @@ jobs:
         with:
           ruby-version: 2.6.0
           path: '.'
-      - run:  gem install bundler  --no-document && bundle install -j $(nproc) --path vendor && bundle exec middleman build --clean --parallel --build-dir=public
+      - run:  gem install bundler  --no-document && bundle install -j $(nproc) --path vendor && bundle exec middleman build --clean --parallel --build-dir=_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
