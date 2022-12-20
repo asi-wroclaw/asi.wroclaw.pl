@@ -10,13 +10,13 @@
       "name": "Marcin Kotas",
       "function": "Były wiceprezes",
       "img": "",
-      "type": 3
+      "type": 4
     },
     {
       "name": "Jakub Bosak",
-      "function": "Prezes",
+      "function": "Były prezes",
       "img": "",
-      "type": 1
+      "type": 4
     },
     {
       "name": "Klaus Knopper",
@@ -94,13 +94,13 @@
       "name": "Michał Karbownik",
       "function": "",
       "img": "",
-      "type": 3
+      "type": 4
     },
     {
       "name": "Cezar Ciepielewski",
-      "function": "Przewodniczącym sądu koleżeńskiego",
+      "function": "",
       "img": "cciepielewski.jpg",
-      "type": 3
+      "type": 4
     },
     {
       "name": "Jakub Ostapczuk",
@@ -130,13 +130,13 @@
       "name": "Ignacy Iwaniak",
       "function": "",
       "img": "",
-      "type": 3
+      "type": 4
     },
     {
       "name": "Karol Kalbarczyk",
-      "function": "Członek sądu koleżeńskiego",
+      "function": "",
       "img": "",
-      "type": 3
+      "type": 4
     },
     {
       "name": "Maciej Gołębiowski",
@@ -146,15 +146,15 @@
     },
     {
       "name": "Arkadiusz Bała",
-      "function": "I Wiceprezes",
+      "function": "",
       "img": "",
-      "type": 1
+      "type": 3
     },
     {
       "name": "Julia Czarnasiak",
-      "function": "II Wiceprezes",
+      "function": "",
       "img": "",
-      "type": 1
+      "type": 3
     },
     {
       "name": "Piotr Augustowski",
@@ -199,16 +199,16 @@
       "type": 3
     },
     {
-      "name": "Krzysztof Ambroży",
-      "function": "",
+      "name": "Przemek Jamontt",
+      "function": "Prezes",
       "img": "",
-      "type": 3
+      "type": 1
     },
     {
-      "name": "Przemek Jamontt",
-      "function": "",
+      "name": "Krzysztof Ambroży",
+      "function": "I Wiceprezes",
       "img": "",
-      "type": 3
+      "type": 1
     },
     {
       "name": "Tomasz Rzymyszkiewicz",
@@ -218,12 +218,54 @@
     },
     {
       "name": "Wiktoria Baracetti",
+      "function": "II Wiceprezes",
+      "img": "",
+      "type": 1
+    },
+    {
+      "name": "Michał Korczak",
       "function": "",
       "img": "",
       "type": 3
     },
     {
-      "name": "Michał Korczak",
+      "name": "Dariusz Wesel",
+      "function": "",
+      "img": "",
+      "type": 3
+    },
+    {
+      "name": "Tomasz Świątek",
+      "function": "",
+      "img": "",
+      "type": 3
+    },
+    {
+      "name": "Kamil Kałużny",
+      "function": "",
+      "img": "",
+      "type": 3
+    },
+    {
+      "name": "Krzysztof Świdelski",
+      "function": "",
+      "img": "",
+      "type": 3
+    },
+    {
+      "name": "Michał Pietrykowski",
+      "function": "",
+      "img": "",
+      "type": 3
+    },
+    {
+      "name": "Miłosz Bochenek",
+      "function": "",
+      "img": "",
+      "type": 3
+    },
+    {
+      "name": "Roman Szlachtun",
       "function": "",
       "img": "",
       "type": 3
