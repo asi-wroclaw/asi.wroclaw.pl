@@ -61,7 +61,7 @@ GEM
       image_size (>= 1.5, < 4)
       in_threads (~> 1.3)
       progress (~> 3.0, >= 3.0.1)
-    image_optim_pack (0.9.1.20221210)
+    image_optim_pack (0.9.1.20221210-x86_64-linux)
       fspath (>= 2.1, < 4)
       image_optim (~> 0.19)
     image_size (3.2.0)
@@ -70,7 +70,6 @@ GEM
     json (2.6.3)
     kramdown (2.4.0)
       rexml
-    libv8 (3.16.14.19)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -120,13 +119,8 @@ GEM
     middleman-minify-html (3.4.1)
       htmlcompressor (~> 0.2.0)
       middleman-core (>= 3.2)
-    middleman-pry (1.0.2)
-      middleman (>= 3.3, < 5)
-      pry (~> 0.9)
-    mini_portile2 (2.8.0)
     minitest (5.16.3)
-    nokogiri (1.13.10)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.13.10-x86_64-linux)
       racc (~> 1.4)
     overcommit (0.59.1)
       childprocess (>= 0.6.3, < 5)
@@ -158,7 +152,6 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     redcarpet (3.5.1)
-    ref (2.0.0)
     regexp_parser (2.6.1)
     rexml (3.2.5)
     rubocop (1.41.0)
@@ -189,9 +182,6 @@ GEM
     sexp_processor (4.16.1)
     sysexits (1.2.0)
     temple (0.9.1)
-    therubyracer (0.12.3)
-      libv8 (~> 3.16.14.15)
-      ref
     thor (1.2.1)
     tilt (2.0.11)
     toml (0.3.0)
@@ -204,27 +194,25 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
-  ruby
+  x86_64-linux
 
 DEPENDENCIES
-  builder (~> 3.0)
+  builder
   erb2haml
   haml_lint
   image_optim
   image_optim_pack
-  middleman (~> 4.1)
+  middleman
   middleman-blog
   middleman-livereload
   middleman-minify-html
-  middleman-pry
-  nokogiri (>= 1.10.4)
+  nokogiri
   overcommit
   pry
   pry-byebug
-  rack (>= 2.0.6)
-  redcarpet (~> 3.3, >= 3.3.3)
+  rack
+  redcarpet
   scss_lint
-  therubyracer
   tzinfo-data
   wdm (~> 0.1.0)
 
@@ -232,4 +220,4 @@ RUBY VERSION
    ruby 2.7.7p221
 
 BUNDLED WITH
-   2.1.4
+   2.3.26
