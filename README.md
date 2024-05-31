@@ -10,7 +10,7 @@ We use [Middleman](https://middlemanapp.com/) to generate static pages that get 
 
 This guide assumes that you use either RVM or Rbenv and have installed Ruby version specified in [Gemfile](./Gemfile).
 
-1. `git clone git@github.com:asi-pwr/asi.wroclaw.pl.git`
+1. `git clone git@github.com:asi-wroclaw/asi.wroclaw.pl.git`
 2. `cd asi.wroclaw.pl`
 3. `bundle install --jobs=$(nproc)`
 4. `bundle exec middleman`
