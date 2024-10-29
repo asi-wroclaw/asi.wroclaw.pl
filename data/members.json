@@ -1,6 +1,24 @@
 {
   "members": [
     {
+      "name": "Przemek Jamontt",
+      "function": "Prezes",
+      "img": "",
+      "type": 1
+    },
+    {
+      "name": "Michał Korczak",
+      "function": "I Wiceprezes",
+      "img": "",
+      "type": 1 
+    },
+    {
+      "name": "Bartek Konat",
+      "function": "II Wiceprezes",
+      "img": "",
+      "type": 1 
+    },
+    {
       "name": "Jakub Dorda",
       "function": "",
       "img": "jdorda.jpg",
@@ -235,23 +253,12 @@
       "type": 4
     },
     {
-      "name": "Bartek Konat",
-      "function": "II Wiceprezes",
-      "img": "",
-      "type": 1 
-    },
-    {
       "name": "Antek Felczyński",
       "function": "",
       "img": "",
       "type": 4
     },
-    {
-      "name": "Przemek Jamontt",
-      "function": "Prezes",
-      "img": "",
-      "type": 1
-    },
+    
     {
       "name": "Krzysztof Ambroży",
       "function": "",
@@ -269,12 +276,6 @@
       "function": "",
       "img": "",
       "type": 4
-    },
-    {
-      "name": "Michał Korczak",
-      "function": "I Wiceprezes",
-      "img": "",
-      "type": 1 
     },
     {
       "name": "Dariusz Fesser",
