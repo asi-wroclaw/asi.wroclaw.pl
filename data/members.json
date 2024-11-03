@@ -1,24 +1,6 @@
 {
   "members": [
     {
-      "name": "Przemek Jamontt",
-      "function": "Prezes",
-      "img": "",
-      "type": 1
-    },
-    {
-      "name": "Michał Korczak",
-      "function": "I Wiceprezes",
-      "img": "",
-      "type": 1 
-    },
-    {
-      "name": "Bartek Konat",
-      "function": "II Wiceprezes",
-      "img": "",
-      "type": 1 
-    },
-    {
       "name": "Jakub Dorda",
       "function": "",
       "img": "jdorda.jpg",
@@ -35,30 +17,6 @@
       "function": "Były prezes",
       "img": "",
       "type": 4
-    },
-    {
-      "name": "Jakub Śliwka",
-      "function": "Przewodniczący Sądu Koleżeńskiego",
-      "img": "",
-      "type": 1 
-    },
-    {
-      "name": "Filip Pyra",
-      "function": "Członek Sądu Koleżeńskiego",
-      "img": "",
-      "type": 1
-    },
-    {
-      "name": "Piotr Bidny",
-      "function": "",
-      "img": "",
-      "type": 3
-    },
-    {
-      "name": "Wiktor Rojecki",
-      "function": "",
-      "img": "",
-      "type": 3
     },
     {
       "name": "Klaus Knopper",
@@ -109,34 +67,10 @@
       "type": 4
     },
     {
-      "name": "Natalia Kanapka",
-      "function": "",
-      "img": "",
-      "type": 3
-    },
-    {
-      "name": "Jacek Poziemski",
-      "function": "",
-      "img": "",
-      "type": 3
-    },
-    {
-      "name": "Wafelek Zieliński",
-      "function": "",
-      "img": "",
-      "type": 3
-    },
-    {
-      "name": "Szymon \"Szycic\" Cichy",
-      "function": "",
-      "img": "szycic.jpg",
-      "type": 3
-    },
-    {
       "name": "Szymon Cichy",
       "function": "",
       "img": "scichy.jpg",
-      "type": 4
+      "type": 3
     },
     {
       "name": "Maja Kędras",
@@ -172,7 +106,7 @@
       "name": "Jakub Ostapczuk",
       "function": "",
       "img": "jostapczuk.jpg",
-      "type": 4
+      "type": 3
     },
     {
       "name": "Paweł Leniec",
@@ -190,7 +124,7 @@
       "name": "Jan Stoltman",
       "function": "",
       "img": "",
-      "type": 4
+      "type": 3
     },
     {
       "name": "Ignacy Iwaniak",
@@ -208,62 +142,73 @@
       "name": "Maciej Gołębiowski",
       "function": "",
       "img": "",
-      "type": 4
+      "type": 3
     },
     {
       "name": "Arkadiusz Bała",
       "function": "",
       "img": "",
-      "type": 4
+      "type": 3
     },
     {
       "name": "Julia Czarnasiak",
       "function": "",
       "img": "",
-      "type": 4
+      "type": 3
     },
     {
       "name": "Piotr Augustowski",
       "function": "",
       "img": "",
-      "type": 4
+      "type": 3
     },
     {
       "name": "Cezary Kręt",
       "function": "",
       "img": "",
-      "type": 4
+      "type": 3
     },
     {
       "name": "Szymon Ciombor",
       "function": "",
       "img": "",
-      "type": 4
+      "type": 3
     },
     {
       "name": "Paweł Wiśniewski",
       "function": "",
       "img": "",
-      "type": 4
+      "type": 3
     },
     {
       "name": "Damian Raczkowski",
       "function": "",
       "img": "",
-      "type": 4
+      "type": 3
+    },
+    {
+      "name": "Bartek Konat",
+      "function": "",
+      "img": "",
+      "type": 3
     },
     {
       "name": "Antek Felczyński",
       "function": "",
       "img": "",
-      "type": 4
+      "type": 3
     },
-    
+    {
+      "name": "Przemek Jamontt",
+      "function": "Prezes",
+      "img": "",
+      "type": 1
+    },
     {
       "name": "Krzysztof Ambroży",
-      "function": "",
+      "function": "I Wiceprezes",
       "img": "",
-      "type": 4
+      "type": 1
     },
     {
       "name": "Tomasz Rzymyszkiewicz",
@@ -273,9 +218,15 @@
     },
     {
       "name": "Wiktoria Baracetti",
+      "function": "II Wiceprezes",
+      "img": "",
+      "type": 1
+    },
+    {
+      "name": "Michał Korczak",
       "function": "",
       "img": "",
-      "type": 4
+      "type": 3
     },
     {
       "name": "Dariusz Fesser",
@@ -285,33 +236,33 @@
     },
     {
       "name": "Tomasz Świątek",
-      "function": "Członek Sądu Koleżeńskiego",
+      "function": "",
       "img": "",
-      "type": 1 
+      "type": 3
     },
     {
       "name": "Kamil Kałużny",
       "function": "",
       "img": "",
-      "type": 4
+      "type": 3
     },
     {
       "name": "Krzysztof Świdelski",
       "function": "",
       "img": "",
-      "type": 4
+      "type": 3
     },
     {
       "name": "Michał Pietrykowski",
       "function": "",
       "img": "",
-      "type": 4
+      "type": 3
     },
     {
       "name": "Miłosz Bochenek",
       "function": "",
       "img": "",
-      "type": 4
+      "type": 3
     },
     {
       "name": "Roman Szlachtun",
