@@ -34,6 +34,8 @@
           %br
           %a{:href =>"https://discord.gg/nwdcrnk" ,:target => "_blank"} Discord
           %br
+          %a{:rel => "me", :href => "https://fosstodon.org/@ASI", :target => "_blank"} Mastodon
+          %br
           %p
           %h2.aside= t('by_year')
           - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
