@@ -35,9 +35,9 @@ jobs:
       - name: setup ruby
         uses: ruby/setup-ruby@v1.123.0
         with:
-          ruby-version: 2.7.2
+          ruby-version: 3.0
           path: '.'
-      - run:  gem install bundler -v 2.4 --no-document && bundle install -j $(nproc) --path vendor && bundle exec middleman build --clean --parallel --build-dir=_site
+      - run:  gem install bundler -v 2.5.23 --no-document && bundle install -j $(nproc) --path vendor && bundle exec middleman build --clean --parallel --build-dir=_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
