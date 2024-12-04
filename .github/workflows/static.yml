@@ -29,20 +29,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup Pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v5
       - name: setup ruby
-        uses: ruby/setup-ruby@v1.123.0
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.0
-          path: '.'
-      - run:  gem install bundler -v 2.5.23 --no-document && bundle install -j $(nproc) --path vendor && bundle exec middleman build --clean --parallel --build-dir=_site
+          bundler-cache: true
+      - name: Install bundler
+        run: gem install bundler -v 2.5.23 --no-document
+      - name: Install packages
+        run: bundle install -j $(nproc) --path vendor
+      - name: Build website
+        run: bundle exec middleman build --clean --parallel --build-dir=_site
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          # Upload entire repository
-          path: '_site'
+        uses: actions/upload-pages-artifact@v3
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
