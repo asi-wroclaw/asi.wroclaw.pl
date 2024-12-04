@@ -1,24 +1,14 @@
-$primary-color: #d65502;
-$primary-dark: #9a3d00;
-
-a {
-  color: $primary-color;
+:root {
+  --asi-primary-color: #d65502;
+  --asi-primary-dark: #9a3d00;
 }
 
-a:hover {
-  color: $primary-dark;
+a, h1, h4 {
+  color: var(--asi-primary-color);
 }
 
-h1 {
-  color: $primary-color
-}
-
-h2 {
-  color: $primary-dark
-}
-
-h4 {
-  color: $primary-color
+a:hover, h2 {
+  color: var(--asi-primary-dark);
 }
 
 p {
@@ -53,7 +43,7 @@ ul.alumni {
   list-style-position: inside;
 }
 
-.padding-top{
+.padding-top {
   padding-top: 20px;
 }
 
@@ -62,20 +52,21 @@ ul.alumni {
 }
 
 div.card.shadow {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media screen and (max-width: 40em) {
   img.logo {
     height: 60px;
   }
+
   ul.alumni {
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
   }
+
   .card-columns {
     column-count: 1;
   }
 }
-
