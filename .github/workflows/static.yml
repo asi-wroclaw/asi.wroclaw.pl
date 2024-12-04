@@ -37,10 +37,6 @@ jobs:
         with:
           ruby-version: '3.0'
           bundler-cache: true
-      - name: Install bundler
-        run: gem install bundler -v 2.5.23 --no-document
-      - name: Install packages
-        run: bundle install -j $(nproc) --path vendor
       - name: Build website
         run: bundle exec middleman build --clean --parallel --build-dir=_site
       - name: Upload artifact
