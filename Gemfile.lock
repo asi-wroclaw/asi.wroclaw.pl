@@ -158,7 +158,7 @@ DEPENDENCIES
   middleman-blog
   middleman-livereload
   middleman-minify-html
-  nokogiri (~> 1.15)
+  nokogiri
   tzinfo-data
   wdm (~> 0.1.0)
 
