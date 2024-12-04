@@ -4,7 +4,7 @@ This repository contains sources for [ASI homepage](https://asi.wroclaw.pl).
 
 ## Technical overview
 
-We use [Middleman](https://middlemanapp.com/) to generate static pages that get uploaded to our server - Tramwaj.
+We use [Middleman](https://middlemanapp.com/) to generate static pages for deploy to the GitHub Pages.
 
 ## Setup
 
@@ -15,7 +15,3 @@ This guide assumes that you use either RVM or Rbenv and have installed Ruby vers
 3. `bundle install --jobs=$(nproc)`
 4. `bundle exec middleman`
 5. `xdg-open http://localhost:4567` (or open it manually in your browser)
-
-## Deployment
-
-Deployment is handled by our internal GitLab instance.
