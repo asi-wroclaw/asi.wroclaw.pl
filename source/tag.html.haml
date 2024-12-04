@@ -11,10 +11,9 @@ per_page: 12
   - if prev_page
     %p= link_to t('previous_page'), prev_page
 %ul
-  - page_articles.each_with_index do |article, i|
+  - page_articles.each_with_index do |article, _i|
     %li
       = link_to article.title, article
       %span= article.date.strftime('%b %e')
-- if paginate
-  - if next_page
-    %p= link_to t('next_page'), next_page
+- if paginate && next_page
+  %p= link_to t('next_page'), next_page

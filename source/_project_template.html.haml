@@ -1,14 +1,15 @@
 - data.projects.projects.each do |project|
-  - if project["type"] == type
-    %div.card.shadow
-      -if project["img"] != nil && project["img"].length != 0
-        = image_tag "projects/#{project.img}", class: "card-img-top img-fluid"
+  - next unless project['type'] == type
 
-      %div.card-block
-        .container
-          %h4.card-title.padding-top
-            = project.name
+  %div.card.shadow
+    - if !project['img'].nil? && !project['img'].empty?
+      = image_tag "projects/#{project.img}", class: 'card-img-top img-fluid'
 
-          -if project["info"] != nil && project["info"].length != 0
-            %p.card-text
-              = partial project.info
+    %div.card-block
+      .container
+        %h4.card-title.padding-top
+          = project.name
+
+        - if !project['info'].nil? && !project['info'].empty?
+          %p.card-text
+            = partial project.info

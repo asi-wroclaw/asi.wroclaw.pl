@@ -1,15 +1,16 @@
 .container
   - data.members.members.each do |member|
-    - if member["type"] == type
-      .mb-3
-      .row.vertical-align
-        .col-xs-6.col-md-6
-          -if member.img == nil || member.img.length == 0
-            = image_tag "unknown.jpg", class: "img-fluid text-center rounded"
-          - else
-            = image_tag "members/#{member.img}", class: "img-fluid text-center rounded"
-        .col-xs-6.col-md-6
-          %p
-            %h3= member.name
-            %h6= member.function
-      .mb-3
+    - next unless member['type'] == type
+
+    .mb-3
+    .row.vertical-align
+      .col-xs-6.col-md-6
+        - if member.img.nil? || member.img.empty?
+          = image_tag 'unknown.jpg', class: 'img-fluid text-center rounded'
+        - else
+          = image_tag "members/#{member.img}", class: 'img-fluid text-center rounded'
+      .col-xs-6.col-md-6
+        %p
+          %h3= member.name
+          %h6= member.function
+    .mb-3
