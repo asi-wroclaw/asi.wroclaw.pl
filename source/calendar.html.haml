@@ -20,8 +20,7 @@ per_page: 100
         %small.text-muted= I18n.localize(article.date, format: "%Y-%m-%d")
     %p
     - if paginate && num_pages > 1
-      %p
-        =I18n.t(".pagination", page_number: page_number, num_pages: num_pages)
+      %p= "#{t('page')} #{page_number} #{t('page_from')} #{num_pages}"
       - if paginate
         - if next_page
           %p= link_to t('next_page'), next_page

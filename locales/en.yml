@@ -1,5 +1,6 @@
 en:
-  paging: "Page %{page_number} of %{num_pages}"
+  page: "Page"
+  page_from: "of"
   next_page: "Next page"
   previous_page: "Previous page"
   meetings: "ASI's Meetings"
@@ -7,7 +8,6 @@ en:
     online: "ASI Online"
     group: "ASI's group"
     fanpage: "ASI's fanpage"
-    phone: "phone: +48 575 904 929"
   recent: "Recent Articles"
   tags: "Tags"
   by_year: "By Year"

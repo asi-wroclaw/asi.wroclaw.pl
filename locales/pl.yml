@@ -1,5 +1,6 @@
 pl:
-  pagination: "Strona %{page_number} z %{num_pages}"
+  page: "Strona"
+  page_from: "z"
   next_page: "Następna strona"
   previous_page: "Poprzednia strona"
   meetings:  "Spotkania ASI"
@@ -7,7 +8,6 @@ pl:
     online: "ASI w Internecie"
     group: "Grupa ASI"
     fanpage: "Fanpage ASI"
-    phone: "tel.: +48 575 904 929"
   recent: "Najnowsze artykuły"
   tags: "Tagi"
   by_year: "Według roku"
