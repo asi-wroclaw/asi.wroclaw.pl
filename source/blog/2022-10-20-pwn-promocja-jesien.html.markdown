@@ -3,7 +3,7 @@ title: "Jesienne nowości od PWN"
 date: 2022-10-20 13:30:00 +0200
 ---
 
-##### Informatyka to Twoja pasja? Tych tytułów nie można przegapić!
+**Informatyka to Twoja pasja? Tych tytułów nie można przegapić!**
 
 Jesień to czas wielu nowości na półce IT w Wydawnictwie Naukowym PWN. Interesujące tytuły znajdą na niej nie tylko studenci, ale także programiści, specjaliści ds. cyberbezpieczeństwa, a także dzieci i ich rodzice. Zapraszamy do przewodnika po nowych publikacjach IT od PWN.
 

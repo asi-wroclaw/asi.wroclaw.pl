@@ -3,12 +3,17 @@
   --asi-primary-dark: #9a3d00;
 }
 
-a, h1, h4 {
+a, h1, h2, h4 {
+  color: var(--asi-primary-dark);
+}
+
+a:hover {
   color: var(--asi-primary-color);
 }
 
-a:hover, h2 {
-  color: var(--asi-primary-dark);
+.pagination-controls {
+  font-size: large;
+  font-weight: 500;
 }
 
 p {
