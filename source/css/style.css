@@ -70,3 +70,36 @@ div.card.shadow {
     column-count: 1;
   }
 }
+
+/* Overwrite Bootstrap to match old style */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media screen and (min-width: 576px) {
+  .card-columns {
+    column-gap: 1.25rem;
+  }
+
+  .card-columns .card {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.card-columns .card {
+  margin-bottom: .75rem;
+}
+
+.card-title {
+  color: var(--asi-primary-color);
+}
