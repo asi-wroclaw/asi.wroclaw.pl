@@ -1,11 +1,11 @@
 - data.projects.projects.each do |project|
   - next unless project['type'] == type
 
-  %div.card.shadow
+  .card.shadow
     - if !project['img'].nil? && !project['img'].empty?
       = image_tag "projects/#{project.img}", class: 'card-img-top img-fluid'
 
-    %div.card-block
+    .card-block
       .container
         %h4.card-title.padding-top
           = project.name

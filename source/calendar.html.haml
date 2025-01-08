@@ -3,8 +3,8 @@ pageable: true
 per_page: 100
 ---
 = wrap_layout :default do
-  %h1#content
-    = I18n.t("archive_for_year")
+  %h1
+    = I18n.t('archive_for_year')
     - case page_type
     - when 'day'
       = Date.new(year, month, day).strftime('%b %e %Y')
@@ -14,10 +14,10 @@ per_page: 100
       = year
 
   %ul#content
-    - page_articles.each_with_index do |article, i|
+    - page_articles.each_with_index do |article, _i|
       %li
         = link_to article.title, article
-        %small.text-muted= I18n.localize(article.date, format: "%Y-%m-%d")
+        %small.text-muted= I18n.localize(article.date, format: '%Y-%m-%d')
     %p
     - if paginate && num_pages > 1
       %p= "#{t('page')} #{page_number} #{t('page_from')} #{num_pages}"
