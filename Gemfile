@@ -2,13 +2,13 @@
 
 source "https://rubygems.org"
 
-ruby "~> 3.0"
+ruby "~> 3.1"
 
 gem "tzinfo-data", platforms: %i[mswin mingw jruby]
 gem "wdm", platforms: %i[mswin mingw]
 
 gem "builder"
-gem "middleman"
+gem "middleman", github: "middleman"
 gem "middleman-blog"
 gem "middleman-livereload"
 gem "middleman-minify-html"
