@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
-Haml::TempleEngine.disable_option_validator!
+Haml::Engine.disable_option_validator!
+Haml::Template.options[:escape_attrs] = false
+Haml::Template.options[:escape_html] = false
+
 set :haml, format: :html5
 I18n.default_locale = :pl
 Time.zone = "Europe/Warsaw"
