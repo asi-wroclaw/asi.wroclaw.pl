@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-ruby "~> 3.2"
+ruby "~> 3.3"
 
 gem "tzinfo-data", platforms: %i[mswin mingw jruby]
 gem "wdm", platforms: %i[mswin mingw]
