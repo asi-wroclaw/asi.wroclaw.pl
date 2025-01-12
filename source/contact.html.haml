@@ -2,7 +2,8 @@
 %h1 Kontakt
 
 %p
-  e-mail: kontakt.asi (oczywisty znak) pwr.edu.pl
+  e-mail:
+  %span#email-obf
 %p
   adres do korespondencji:
   %br
@@ -14,6 +15,10 @@
   Możesz również skontaktować się z nami osobiście.
   %br
     Nasza siedziba znajduje się przy ul. Grunwaldzkiej 61, w pok. nr 1 (wejście boczne budynku T3).
+
+%script{src: '/js/obfuscate.js'}
+%script
+  EmailProtector.append('email-obf', 'xbagnxg.nfv@cje.rqh.cy')
 
 %iframe{
   src: 'https://www.openstreetmap.org/export/embed.html?bbox=17.0624515414238,51.112982808881526,17.066335380077366,51.1145571866162&layer=mapnik;marker=51.113962,17.064249&map=19/51.113962/17.064249',
