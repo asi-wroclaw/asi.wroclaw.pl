@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/middleman/middleman.git
-  revision: 4e9a7dc4765e5912c64bda33ace473a9e01de64a
+  revision: 339477ee96d788d3d9cf6d518a3395279f72a0af
   specs:
     middleman (4.5.1)
       middleman-cli (= 4.5.1)
@@ -31,7 +31,7 @@ GIT
       rackup
       sassc (~> 2.0)
       servolux
-      tilt (~> 2.0)
+      tilt (~> 2.2)
       toml
       uglifier (>= 3, < 5)
       webrick
@@ -92,7 +92,7 @@ GEM
     hashie (5.0.0)
     htmlcompressor (0.2.0)
     http_parser.rb (0.8.0)
-    i18n (1.14.6)
+    i18n (1.14.7)
       concurrent-ruby (~> 1.0)
     json (2.9.1)
     kramdown (2.5.1)
@@ -115,7 +115,7 @@ GEM
       htmlcompressor (~> 0.2.0)
       middleman-core (>= 3.2)
     minitest (5.25.4)
-    nokogiri (1.18.1-x86_64-linux-gnu)
+    nokogiri (1.18.2-x86_64-linux-gnu)
       racc (~> 1.4)
     padrino-helpers (0.15.3)
       i18n (>= 0.6.7, < 2)
@@ -140,7 +140,7 @@ GEM
       ffi (~> 1.0)
     regexp_parser (2.10.0)
     rexml (3.4.0)
-    rubocop (1.70.0)
+    rubocop (1.71.0)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)
