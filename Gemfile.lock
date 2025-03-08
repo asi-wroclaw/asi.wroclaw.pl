@@ -171,7 +171,7 @@ GEM
     webrick (1.9.1)
 
 PLATFORMS
-  x86_64-linux
+  x86_64-linux-gnu
 
 DEPENDENCIES
   builder
@@ -185,7 +185,7 @@ DEPENDENCIES
   wdm
 
 RUBY VERSION
-   ruby 3.3.0p0
+   ruby 3.3.4p94
 
 BUNDLED WITH
-   2.5.23
+   2.6.5
