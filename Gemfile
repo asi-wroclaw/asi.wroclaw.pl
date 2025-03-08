@@ -8,7 +8,7 @@ gem "tzinfo-data", platforms: %i[mswin mingw jruby]
 gem "wdm", platforms: %i[mswin mingw]
 
 gem "builder"
-gem "middleman", github: "middleman"
+gem "middleman"
 gem "middleman-blog"
 gem "middleman-livereload"
 gem "middleman-minify-html"
