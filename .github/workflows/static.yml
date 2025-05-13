@@ -35,7 +35,7 @@ jobs:
       - name: setup ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3.4'
+          ruby-version: '3.3.8'
           bundler-cache: true
       - name: Build website
         run: bundle exec middleman build --clean --parallel --build-dir=_site
