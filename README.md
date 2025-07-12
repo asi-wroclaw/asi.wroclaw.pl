@@ -10,8 +10,58 @@ We use [Middleman](https://middlemanapp.com/) to generate static pages for deplo
 
 This guide assumes that you use either RVM or Rbenv and have installed Ruby version specified in [Gemfile](./Gemfile).
 
-1. `git clone git@github.com:asi-wroclaw/asi.wroclaw.pl.git`
-2. `cd asi.wroclaw.pl`
-3. `bundle install --jobs=$(nproc)`
-4. `bundle exec middleman`
-5. `xdg-open http://localhost:4567` (or open it manually in your browser)
+### Ruby setup
+
+```
+rvm install <version>
+```
+
+or
+
+```
+rvm use <version>
+```
+
+### Project setup
+
+```
+git clone git@github.com:asi-wroclaw/asi.wroclaw.pl.git
+```
+
+```
+cd asi.wroclaw.pl
+```
+
+```
+bundle install --jobs=$(nproc)
+```
+
+### Update setup
+
+```
+gem install bundle_update_interactive
+```
+
+## Development
+
+```
+bundle exec middleman
+```
+
+Use snippet below or open it manually in your browser:
+```
+xdg-open http://localhost:4567
+```
+
+
+### Building
+
+```
+bundle exec middleman build
+```
+
+### Updating
+
+```
+bundle ui
+```
