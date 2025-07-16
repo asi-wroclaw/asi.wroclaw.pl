@@ -20,12 +20,12 @@
           %h3 #{current_article.title unless current_article.nil?}
           = yield
           - if current_article
-            %a(href="javascript:window.history.back();" )= t('back')
+            %a(href="javascript:window.history.back();" ) Wstecz
         .col-md-4.col-sm-12
           .mb-3
-          %h2.aside= t('meetings')
+          %h2.aside Spotkania ASI
           %p Spotykamy się w każdy wtorek o godzinie 18:00 w naszej siedzibie, która mieści się na ulicy Grunwaldzkiej 61, w pok. nr 1 (wejście boczne budynku T3).
-          %h2.aside= t('social.online')
+          %h2.aside ASI w Internecie
           %a{href: 'https://discord.gg/nwdcrnk', target: '_blank'} Discord
           %br
           %a{href: 'https://www.facebook.com/asi-wroclaw/', target: '_blank'} Facebook
@@ -36,10 +36,10 @@
           %br
           %a{href: 'https://bsky.app/profile/asi.wroclaw.pl', target: '_blank'} Bluesky
           %br
-          %a{href: 'https://www.facebook.com/groups/175529160840/', target: '_blank'}= t('social.group')
+          %a{href: 'https://www.facebook.com/groups/175529160840/', target: '_blank'} Grupa ASI
           %br
           %p
-          %h2.aside= t('by_year')
+          %h2.aside Według roku
           - blog.articles.group_by { |a| a.date.year }.each do |year, articles|
             %p= link_to "#{year} (#{articles.size})", blog_year_path(year)
     = partial 'footer.haml'

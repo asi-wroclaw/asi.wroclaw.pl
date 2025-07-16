@@ -2,7 +2,6 @@ Haml::Template.options[:escape_attrs] = false
 Haml::Template.options[:escape_html] = false
 
 set :haml, format: :html5
-I18n.default_locale = :pl
 Time.zone = "Europe/Warsaw"
 
 # Layouts
@@ -26,7 +25,6 @@ page "/*.txt", layout: false
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
-activate :i18n, mount_at_root: :pl
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   blog.prefix = "blog"
