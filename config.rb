@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 Haml::Template.options[:escape_attrs] = false
 Haml::Template.options[:escape_html] = false
 
@@ -7,10 +5,10 @@ set :haml, format: :html5
 I18n.default_locale = :pl
 Time.zone = "Europe/Warsaw"
 
-###
-# Page options, layouts, aliases and proxies
-###
+# Layouts
+# https://middlemanapp.com/basics/layouts/
 
+# Per-page layout changes
 page "/index.html", layout: "default"
 page "/about.html", layout: "default"
 page "/contact.html", layout: "default"
@@ -19,16 +17,16 @@ page "/recruitment.html", layout: "default"
 page "/members.html", layout: "default"
 page "/projects.html", layout: "default"
 page "/page/*", layout: "default"
+
+# With no layout
 page "/*.xml", layout: false
 page "/*.json", layout: false
 page "/*.txt", layout: false
 
-###
-# Helpers
-###
+# Activate and configure extensions
+# https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
 activate :i18n, mount_at_root: :pl
-activate :directory_indexes
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   blog.prefix = "blog"
@@ -45,7 +43,7 @@ activate :blog do |blog|
   # blog.day_link = "{year}/{month}/{day}.html"
   # blog.default_extension = ".markdown"
 
-  blog.tag_template = "tag.html"
+  # blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
 
   # Enable pagination
@@ -54,13 +52,16 @@ activate :blog do |blog|
   blog.page_link = "page/{num}"
 end
 
-page "/feed.xml", layout: false
+activate :directory_indexes
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
 end
 
+# Helpers
 # Methods defined in the helpers block are available in templates
+
 # helpers do
 #   def some_helper
 #     "Helping"
@@ -68,6 +69,8 @@ end
 # end
 
 # Build-specific configuration
+# https://middlemanapp.com/advanced/configuration/#environment-specific-settings
+
 configure :build do
   # Minify HTML on build
   activate :minify_html
@@ -76,5 +79,5 @@ configure :build do
   activate :minify_css
 
   # Minify Javascript on build
-  activate :minify_javascript
+  activate :minify_javascript, compressor: Terser.new
 end
