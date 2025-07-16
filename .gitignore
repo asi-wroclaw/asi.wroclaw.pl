@@ -16,7 +16,6 @@ build/
 
 # Ignore .DS_store file
 .DS_Store
-public
 
 .direnv/
 _site
