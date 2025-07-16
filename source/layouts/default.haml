@@ -13,7 +13,7 @@
     %meta{name: 'description', content: 'Strona domowa Akademickiego Stowarzyszenia Informatycznego, czyli ponad 25-letniej organizacji popularyzującej Open Source'}
     = feed_tag :atom, "#{blog.options.prefix}/feed.xml", title: 'Atom Feed'
   %body
-    = partial 'menu.haml'
+    = partial 'partials/menu'
     %main.container
       .row
         .col-md-8.col-sm-11
@@ -42,7 +42,7 @@
           %h2.aside Według roku
           - blog.articles.group_by { |a| a.date.year }.each do |year, articles|
             %p= link_to "#{year} (#{articles.size})", blog_year_path(year)
-    = partial 'footer.haml'
+    = partial 'partials/footer'
 
     %script{async: true, src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js', integrity: 'sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz', crossorigin: 'anonymous'}
     %script{async: true, src: 'https://scripts.simpleanalyticscdn.com/latest.js', 'data-collect-dnt': 'true'}
