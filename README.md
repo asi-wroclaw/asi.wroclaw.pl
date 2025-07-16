@@ -36,12 +36,6 @@ cd asi.wroclaw.pl
 bundle install --jobs=$(nproc)
 ```
 
-### Development setup (for linting)
-
-```
-bundle config set --local with development
-```
-
 ### Update setup
 
 ```

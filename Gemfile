@@ -13,7 +13,3 @@ gem "middleman-blog"
 gem "middleman-livereload"
 gem "middleman-minify-html"
 gem "nokogiri"
-
-group :development, optional: true do
-  gem "haml_lint", require: false
-end
