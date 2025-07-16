@@ -1,38 +1,49 @@
-#content
-  %h1 O nas
-
-  %p
+<div id="content">
+  <h1>O nas</h1>
+  <p>
     Akademickie Stowarzyszenie Informatyczne (w skrócie: ASI) to organizacja studencka działająca na Politechnice Wrocławskiej, skupiająca pasjonatów informatyki, elektroniki oraz dziedzin pokrewnych.
     Nasza działalność opiera się przede wszystkim na organizowaniu wykładów, warsztatów i konferencji.
-
-  .row
-    .col-md-7
-      %p
+  </p>
+  <div class="row">
+    <div class="col-md-7">
+      <p>
         Tematyka tych imprez jest różnorodna, jednak zawsze dotyka zagadnień z zakresu informatyki, elektroniki, robotyki etc.
         Tradycyjnie wstęp jest wolny – mile widziani są zarówno studenci wrocławskich uczelni, jak i każdy zainteresowany.
-      %p
+      </p>
+      <p>
         Poza wymienionymi wyżej imprezami, zajmujemy się również tworzeniem projektów informatycznych.
         Ich tematyka zależy od inwencji pomysłodawców – każda nowa idea jest mile widziana.
-    .col-md-5
-      = image_tag 'about/about1.jpg', class: 'img-fluid text-cente', width: 290
-
-  %p
+      </p>
+    </div>
+    <div class="col-md-5">
+      <%= image_tag 'about/about1.jpg', class: 'img-fluid text-cente', width: 290 %>
+    </div>
+  </div>
+  <p>
     Wszystkich chętnych do realizacji własnych projektów, wspieramy zarówno merytorycznie, jak i materialnie (sprzęt i finanse).
     Więcej na temat realizowanych inicjatyw, znajdziesz w zakładce Projekty.
-  %p
+  </p>
+  <p>
     W ciągu kilkunastu lat działalności, nasze stowarzyszenie zrealizowało wiele projektów, które spotkały się z ogromnym zainteresowaniem (jak choćby Sesja Linuksowa).
     W tym czasie nauczyliśmy się sprawnie organizować zarówno pojedyncze wykłady, jak i całe konferencje.
-  %p
+  </p>
+  <p>
     Nasze sukcesy zawdzięczamy entuzjazmowi i zaangażowaniu, z jakim nasi członkowie przystępują do realizacji powierzonych im zadań.
     Wspólnie uczymy się, jak zgłębiać wiedzę informatyczną i jak wykorzystywać ją do realizowania ciekawych i twórczych projektów.
-
-  .row
-    .col-md-4
-      = image_tag 'about/about2.jpg', class: 'img-fluid text-cente'
-    .col-md-7
-      %p
+  </p>
+  <div class="row">
+    <div class="col-md-4">
+      <%= image_tag 'about/about2.jpg', class: 'img-fluid text-cente' %>
+    </div>
+    <div class="col-md-7">
+      <p>
         Zachęcamy do uczestnictwa w prowadzonych przez nas imprezach, a wszystkich aktywnych studentów Politechniki Wrocławskiej zapraszamy do wstąpienia w szeregi ASI.
-      %p
+      </p>
+      <p>
         Spotkania ASI odbywają się co tydzień, we wtorek – zaczynamy o godzinie 18:00.
         Forma spotkań jest na ogół bardzo luźna, dlatego można przyjść bez skrępowań, zarówno z zepsutym laptopem, jak i z zamiarem podyskutowania o sieciach neuronowych.
         Zapraszamy! ;)
+      </p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+---
+pageable: true
+per_page: 10
+---
+<% page_articles.each_with_index do |article, _i| %>
+  <div class="post">
+    <h3>
+      <div class="row justify-content-between">
+        <div class="col-md-8 col-sm-12">
+          <%= link_to article.title, article %>
+        </div>
+        <div class="col-md-4 col-sm-12 text-md-end">
+          <small class="text-muted"><%= I18n.localize(article.date, format: '%Y-%m-%d') %></small>
+        </div>
+      </div>
+    </h3>
+    <p>
+      <%= article.summary(250) %>
+    </p>
+  </div>
+<% end %>
+<% if paginate && num_pages > 1 %>
+  <p>Strona <%= page_number %> z <%= num_pages %></p>
+  <% if prev_page %>
+    <p class="pagination-controls dx"><%= link_to 'Poprzednia strona', prev_page %></p>
+  <% end %>
+  <% if paginate && next_page %>
+    <p class="pagination-controls dx"><%= link_to 'Następna strona', next_page %></p>
+  <% end %>
+<% end %>

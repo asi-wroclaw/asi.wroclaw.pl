@@ -1,7 +1,3 @@
-Haml::Template.options[:escape_attrs] = false
-Haml::Template.options[:escape_html] = false
-
-set :haml, format: :html5
 Time.zone = "Europe/Warsaw"
 
 # Layouts
