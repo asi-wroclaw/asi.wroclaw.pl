@@ -203,6 +203,44 @@ aside a:hover {
   }
 }
 
+/* members */
+.asi-member-card {
+  width: 200px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.asi-member-img {
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  border-radius: 12px;
+}
+
+@media (max-width: 600px) {
+  .asi-member-list {
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .asi-member-card {
+    flex-basis: 48%;
+    max-width: 48%;
+    min-width: 140px;
+    height: auto;
+    margin: 0;
+    padding: 1rem 0.5rem;
+  }
+
+  .asi-member-img {
+    width: 70px !important;
+    height: 70px !important;
+    margin-bottom: 0.5rem;
+  }
+}
+
 /* footer */
 footer {
   background: var(--asi-primary-color);

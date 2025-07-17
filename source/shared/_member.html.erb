@@ -1,0 +1,16 @@
+<div class="asi-member-list d-flex flex-wrap gap-2">
+  <% data.members.members.each do |member| %>
+    <% next unless member['type'] == type %>
+    <div class="card shadow-sm rounded-4 asi-member-card text-center p-0">
+      <% if member.img.nil? || member.img.empty? %>
+        <%= image_tag 'members/unknown.jpg', class: 'shadow-sm mb-2 asi-member-img', alt: member.name, width: 90, height: 90 %>
+      <% else %>
+        <%= image_tag "members/#{member.img}", class: 'shadow-sm mb-2 asi-member-img', alt: member.name, width: 90, height: 90 %>
+      <% end %>
+      <h3 class="mb-1 asi-primary-text fw-bold" style="font-size:1.1rem;"><%= member.name %></h3>
+      <% if member.function.present? %>
+        <h6 class="text-secondary fw-semibold" style="font-size:0.95rem;"><%= member.function %></h6>
+      <% end %>
+    </div>
+  <% end %>
+</div>

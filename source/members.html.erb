@@ -7,17 +7,17 @@
 <section class="mb-4">
   <h2 class="fw-bold asi-primary-text">Zarząd</h2>
   <p class="mb-2">
-    <span class="fw-semibold">Zarząd ASI</span>, wybrany w dniu <span class="asi-primary-text">23.11.2022 r.</span>
+    <span class="fw-semibold">Zarząd ASI</span>, wybrany w dniu <span class="asi-primary-text fw-semibold">23.11.2022 r.</span>
   </p>
-  <%= partial 'shared/member_template', locals: { type: 1 } %>
+  <%= partial 'shared/member', locals: { type: 1 } %>
 </section>
 <section class="mb-4">
   <h2 class="fw-bold asi-primary-text">Członkowie honorowi</h2>
-  <%= partial 'shared/member_template', locals: { type: 2 } %>
+  <%= partial 'shared/member', locals: { type: 2 } %>
 </section>
 <section class="mb-4">
   <h2 class="fw-bold asi-primary-text">Członkowie</h2>
-  <%= partial 'shared/member_template', locals: { type: 3 } %>
+  <%= partial 'shared/member', locals: { type: 3 } %>
 </section>
 <section class="mb-4">
   <h2 class="fw-bold asi-primary-text">Alumni</h2>
