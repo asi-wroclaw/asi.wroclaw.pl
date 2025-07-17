@@ -136,6 +136,25 @@ body {
   }
 }
 
+/* aside */
+.asi-aside {
+  background: #f8f9fa;
+}
+
+.asi-aside h2 {
+  color: var(--asi-primary-color);
+  font-size: 1.3rem;
+}
+
+.asi-aside a {
+  color: var(--asi-primary-dark);
+}
+
+.asi-aside a:hover {
+  color: var(--asi-primary-color);
+  text-decoration: underline;
+}
+
 /* footer */
 footer {
   background: var(--asi-primary-color);
