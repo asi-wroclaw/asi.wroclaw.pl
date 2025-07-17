@@ -3,6 +3,19 @@
   --asi-primary-dark: #9a3d00;
 }
 
+body {
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--asi-primary-color);
+  text-decoration: underline;
+}
+
 a,
 h1,
 h2,
@@ -10,33 +23,12 @@ h4 {
   color: var(--asi-primary-dark);
 }
 
-a:hover {
-  color: var(--asi-primary-color);
-}
-
-.pagination-controls {
-  font-size: large;
-  font-weight: 500;
-}
-
-p {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-p.center {
-  text-align: center;
-}
-
+/* TODO: leftovers */
 img.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-img.logo {
-  height: 90px;
 }
 
 .vertical-align {
@@ -80,24 +72,6 @@ div.card.shadow {
 }
 
 /* Overwrite Bootstrap to match old style */
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--asi-primary-color);
-  text-decoration: underline;
-}
-
-body {
-  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
 @media screen and (min-width: 576px) {
   .card-columns {
     column-gap: 1.25rem;
@@ -120,6 +94,11 @@ body {
 /* navbar accessibility */
 .navbar {
   border-bottom: 2px solid var(--asi-primary-color);
+}
+
+.logo {
+  /* TODO: remove */
+  height: 90px;
 }
 
 .navbar-nav .nav-link {
