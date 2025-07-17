@@ -1,29 +1,35 @@
-<div id="content">
-  <h1>Ludzie</h1>
-  <p>
+<h1 class="mb-4">Ludzie</h1>
+<section class="mb-4">
+  <p class="lead fw-semibold">
     Strona zawiera listę aktualnych aktywnych członków stowarzyszenia, wraz z ich funkcjami, kontaktem i projektami które koordynują lub koordynowali w przeszłości.
   </p>
-  <h2>Zarząd</h2>
-  <p>
-    Zarząd ASI, wybrany w dniu 23.11.2022 r.
+</section>
+<section class="mb-4">
+  <h2 class="fw-bold asi-primary-text">Zarząd</h2>
+  <p class="mb-2">
+    <span class="fw-semibold">Zarząd ASI</span>, wybrany w dniu <span class="asi-primary-text">23.11.2022 r.</span>
   </p>
   <%= partial 'shared/member_template', locals: { type: 1 } %>
-  <h2>Członkowie honorowi</h2>
+</section>
+<section class="mb-4">
+  <h2 class="fw-bold asi-primary-text">Członkowie honorowi</h2>
   <%= partial 'shared/member_template', locals: { type: 2 } %>
-  <h2>Członkowie</h2>
+</section>
+<section class="mb-4">
+  <h2 class="fw-bold asi-primary-text">Członkowie</h2>
   <%= partial 'shared/member_template', locals: { type: 3 } %>
-  <h2>Alumni</h2>
+</section>
+<section class="mb-4">
+  <h2 class="fw-bold asi-primary-text">Alumni</h2>
   <p>
-    Każda przygoda musi kiedyś się skończyć.
-    To samo tyczy się studiów, a co za tym idzie uczestnictwa w życiu naszej organizacji.
+    <span class="fw-semibold">Każda przygoda musi kiedyś się skończyć.</span><br>
+    To samo tyczy się studiów, a co za tym idzie uczestnictwa w życiu naszej organizacji.<br>
     Poniżej wypisane są osoby, które w trakcie długich lat działania Akademickiego Stowarzyszenia Informatycznego udzielały się w naszej organizacji.
   </p>
-  <div class="container">
-    <ul class="alumni">
-      <% data.members.members.each do |member| %>
-        <% next unless member['type'] == 4 %>
-        <li><%= member.name %></li>
-      <% end %>
-    </ul>
-  </div>
-</div>
+  <ul class="alumni mb-4">
+    <% data.members.members.each do |member| %>
+      <% next unless member['type'] == 4 %>
+      <li class="fw-semibold"><%= member.name %></li>
+    <% end %>
+  </ul>
+</section>
