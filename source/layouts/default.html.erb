@@ -7,9 +7,9 @@
     <%= partial 'shared/navbar' %>
     <main class="container d-grid">
       <section>
-        <h3>
-          <%= current_article.title unless current_article.nil? %>
-        </h3>
+        <% if current_article %>
+          <h3><%= current_article.title %></h3>
+        <% end %>
         <%= yield %>
         <% if current_article %>
           <a href="javascript:window.history.back();">Wstecz</a>
