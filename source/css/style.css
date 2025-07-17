@@ -89,6 +89,11 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: var(--asi-primary-color);
+  text-decoration: underline;
+}
+
 body {
   font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -147,9 +152,43 @@ main {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+
   main aside {
     margin-top: 2rem;
   }
+}
+
+/* article */
+.asi-post-list {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.asi-post.card {
+  border: 1px solid var(--asi-primary-dark) !important;
+}
+
+.card-title a {
+  font-weight: 700;
+  font-size: 1.25rem;
+
+  &:hover {
+    color: var(--asi-primary-color);
+  }
+}
+
+.asi-post .post-date {
+  min-width: fit-content;
+}
+
+/* pagination */
+.pagination .page-link {
+  color: var(--asi-primary-dark);
+  font-weight: 600;
+}
+
+.pagination .page-link:hover {
+  color: var(--asi-primary-color);
 }
 
 /* aside */
