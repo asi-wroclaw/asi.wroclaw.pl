@@ -136,21 +136,37 @@ body {
   }
 }
 
-/* aside */
-.asi-aside {
-  background: #f8f9fa;
+/* main */
+main {
+  grid-template-columns: 1fr 340px;
+  gap: 8rem;
 }
 
-.asi-aside h2 {
+@media (max-width: 900px) {
+  main {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  main aside {
+    margin-top: 2rem;
+  }
+}
+
+/* aside */
+aside {
+  max-height: fit-content;
+}
+
+aside h2 {
   color: var(--asi-primary-color);
   font-size: 1.3rem;
 }
 
-.asi-aside a {
+aside a {
   color: var(--asi-primary-dark);
 }
 
-.asi-aside a:hover {
+aside a:hover {
   color: var(--asi-primary-color);
   text-decoration: underline;
 }
