@@ -2,9 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
-    <meta content="IE=edge;chrome=1" http-equiv="X-UA-Compatible" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#d65502" />
+    <meta name="description" content="Strona domowa Akademickiego Stowarzyszenia Informatycznego, czyli ponad 25-letniej organizacji popularyzującej Open Source" />
+    <meta name="keywords" content="ASI, Akademickie Stowarzyszenie Informatyczne, Wrocław, Open Source, Linux, IT, studenci, programowanie" />
+    <meta name="author" content="Akademickie Stowarzyszenie Informatyczne" />
+    <%# social media meta tags  %>
+    <meta property="og:title" content="Akademickie Stowarzyszenie Informatyczne" />
+    <meta property="og:description" content="Strona domowa Akademickiego Stowarzyszenia Informatycznego, czyli ponad 25-letniej organizacji popularyzującej Open Source" />
+    <meta property="og:image" content="/images/asi-logo.svg" />
+    <meta property="og:url" content="https://asi.wroclaw.pl" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Akademickie Stowarzyszenie Informatyczne" />
+    <meta name="twitter:description" content="Strona domowa Akademickiego Stowarzyszenia Informatycznego, czyli ponad 25-letniej organizacji popularyzującej Open Source" />
+    <meta name="twitter:image" content="/images/asi-logo.svg" />
     <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
@@ -12,8 +24,6 @@
     <title>
       Akademickie Stowarzyszenie Informatyczne<%= " - #{current_article.title}" unless current_article.nil? %>
     </title>
-    <meta name="description"
-      content="Strona domowa Akademickiego Stowarzyszenia Informatycznego, czyli ponad 25-letniej organizacji popularyzującej Open Source" />
   </head>
   <body>
     <%= partial 'shared/menu' %>
