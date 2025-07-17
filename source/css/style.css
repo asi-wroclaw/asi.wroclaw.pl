@@ -109,6 +109,20 @@ main {
 
 .asi-post .post-date {
   min-width: fit-content;
+  font-weight: 500;
+}
+
+.asi-news-readmore {
+  background: var(--asi-primary-color);
+  color: #fff !important;
+  border: none;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.asi-news-readmore:hover {
+  background: var(--asi-primary-dark);
+  color: #fff !important;
 }
 
 /* pagination */

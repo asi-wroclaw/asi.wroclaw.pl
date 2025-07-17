@@ -12,7 +12,9 @@
         <% end %>
         <%= yield %>
         <% if current_article %>
-          <a href="javascript:window.history.back();">Wstecz</a>
+          <div class="mt-3">
+            <a href="javascript:window.history.back();" class="btn btn-sm asi-news-readmore">Wstecz</a>
+          </div>
         <% end %>
       </section>
       <%= partial 'shared/aside' %>
