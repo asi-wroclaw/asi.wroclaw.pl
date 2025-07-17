@@ -23,6 +23,10 @@ h4 {
   color: var(--asi-primary-dark);
 }
 
+.asi-primary-text {
+  color: var(--asi-primary-color);
+}
+
 /* TODO: leftovers */
 img.center {
   display: block;
