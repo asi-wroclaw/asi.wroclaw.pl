@@ -1,0 +1,20 @@
+<% data.projects.projects.each do |project| %>
+  <% next unless project['type'] == type %>
+  <div class="card shadow asi-project-card">
+    <% if !project['img'].nil? && !project['img'].empty? %>
+      <div class="asi-project-img-wrapper">
+        <%= image_tag "projects/#{project.img}", class: 'card-img-top img-fluid rounded', alt: project.name %>
+      </div>
+    <% end %>
+    <div class="card-body p-3 d-flex flex-column">
+      <h4 class="card-title asi-primary-text mb-2" style="font-size:1.2rem; font-weight:700; letter-spacing:0.01em;">
+        <%= project.name %>
+      </h4>
+      <% if !project['info'].nil? && !project['info'].empty? %>
+        <div class="card-text asi-project-info" style="font-size:1rem; color:#333; line-height:1.6;">
+          <%= partial project.info %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+<% end %>

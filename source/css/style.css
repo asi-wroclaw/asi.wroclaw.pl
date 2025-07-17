@@ -31,16 +31,11 @@ h4 {
   color: var(--asi-primary-color);
 }
 
-/* TODO: leftovers */
 img.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-.padding-top {
-  padding-top: 20px;
 }
 
 /* navbar accessibility */
