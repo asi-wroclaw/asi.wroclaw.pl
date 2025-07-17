@@ -113,6 +113,10 @@ body {
 }
 
 /* navbar accessibility */
+.navbar {
+  border-bottom: 2px solid var(--asi-primary-color);
+}
+
 .navbar-nav .nav-link {
   font-size: 1.15rem;
   font-weight: 600;
@@ -124,4 +128,10 @@ body {
 .navbar-nav .nav-link:focus {
   color: var(--asi-primary-color) !important;
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .navbar-nav .nav-item:first-child {
+    padding-top: 1rem;
+  }
 }
