@@ -118,11 +118,18 @@ main {
   border: none;
   font-weight: 600;
   transition: background 0.2s;
-}
 
-.asi-news-readmore:hover {
-  background: var(--asi-primary-dark);
-  color: #fff !important;
+  &:hover {
+    background: var(--asi-primary-dark);
+  }
+
+  &:focus {
+    background: var(--asi-primary-dark);
+  }
+
+  &:first-child:active {
+    background: var(--asi-primary-dark);
+  }
 }
 
 /* pagination */
