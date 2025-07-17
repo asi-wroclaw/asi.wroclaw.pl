@@ -1,17 +1,21 @@
-<div id="content">
-  <h1>Aktualne projekty</h1>
-  <p>
+<section class="mb-5">
+  <h1 class="mb-3 asi-primary-text">Aktualne projekty</h1>
+  <p class="mb-4">
     Poniżej znajduje się lista projektów realizowanych obecnie w ramach działalności ASI.
   </p>
-  <div class="card-columns">
+  <div class="asi-project-grid mb-4">
     <%= partial 'shared/project_template', locals: { type: 1 } %>
   </div>
-  <hr>
-  <h1>Archiwum projektów</h1>
-  <p>
+</section>
+
+<hr>
+
+<section class="mb-5">
+  <h1 class="mb-3 asi-primary-text">Archiwum projektów</h1>
+  <p class="mb-4">
     Tu przedstawiamy niektóre z projektów, które Akademickie Stowarzyszenie Informatyczne realizowało w ostatnich latach.
   </p>
-  <div class="card-columns">
+  <div class="asi-project-grid mb-4">
     <%= partial 'shared/project_template', locals: { type: 2 } %>
   </div>
-</div>
+</section>

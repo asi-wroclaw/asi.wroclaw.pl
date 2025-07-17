@@ -43,44 +43,19 @@ img.center {
   padding-top: 20px;
 }
 
-.card-columns {
-  column-count: 2;
-}
-
-@media screen and (max-width: 40em) {
-  img.logo {
-    height: 60px;
-  }
-
-  .card-columns {
-    column-count: 1;
-  }
-}
-
-/* Overwrite Bootstrap to match old style */
-@media screen and (min-width: 576px) {
-  .card-columns {
-    column-gap: 1.25rem;
-  }
-
-  .card-columns .card {
-    display: inline-block;
-    width: 100%;
-  }
-}
-
-.card-columns .card {
-  margin-bottom: .75rem;
-}
-
 /* navbar accessibility */
 .navbar {
   border-bottom: 2px solid var(--asi-primary-color);
 }
 
 .logo {
-  /* TODO: remove */
   height: 90px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    height: 60px;
+  }
 }
 
 .navbar-nav .nav-link {
@@ -179,6 +154,14 @@ aside a:hover {
     column-gap: 1.5rem;
     row-gap: 0.7rem;
   }
+}
+
+/* projects */
+.asi-project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* members */
