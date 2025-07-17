@@ -1,64 +1,60 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
     <meta content="IE=edge;chrome=1" http-equiv="X-UA-Compatible" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link href="/css/style.css" rel="stylesheet" crossorigin="anonymous" />
     <title>
-        Akademickie Stowarzyszenie Informatyczne<%= " - #{current_article.title}" unless current_article.nil? %>
+      Akademickie Stowarzyszenie Informatyczne<%= " - #{current_article.title}" unless current_article.nil? %>
     </title>
     <meta name="description"
-        content="Strona domowa Akademickiego Stowarzyszenia Informatycznego, czyli ponad 25-letniej organizacji popularyzującej Open Source" />
-</head>
-
-<body>
+      content="Strona domowa Akademickiego Stowarzyszenia Informatycznego, czyli ponad 25-letniej organizacji popularyzującej Open Source" />
+  </head>
+  <body>
     <%= partial 'shared/menu' %>
     <main class="container">
-        <div class="row">
-            <div class="col-md-8 col-sm-11">
-                <h3>
-                <%= current_article.title unless current_article.nil? %>
-                </h3>
-                <%= yield %>
-                <% if current_article %>
-                    <a href="javascript:window.history.back();">Wstecz</a>
-                <% end %>
-            </div>
-            <div class="col-md-4 col-sm-12">
-                <div class="mb-3"></div>
-                <h2 class="aside">Spotkania ASI</h2>
-                <p>Spotykamy się w każdy wtorek o godzinie 18:00 w naszej siedzibie, która mieści się na ulicy
-                    Grunwaldzkiej 61, w pok. nr 1 (wejście boczne budynku T3).</p>
-                <h2 class="aside">ASI w Internecie</h2>
-                <a href="https://discord.gg/nwdcrnk" target="_blank">Discord</a><br>
-                <a href="https://www.facebook.com/asi-wroclaw/" target="_blank">Facebook</a><br>
-                <a href="https://www.linkedin.com/company/akademickie-stowarzyszenie-informatyczne/"
-                    target="_blank">LinkedIn</a><br>
-                <a rel="me" href="https://fosstodon.org/@ASI" target="_blank">Mastodon</a><br>
-                <a href="https://bsky.app/profile/asi.wroclaw.pl" target="_blank">Bluesky</a><br>
-                <a href="https://www.facebook.com/groups/175529160840/" target="_blank">Grupa ASI</a><br>
-                <p></p>
-                <h2 class="aside">Według roku</h2>
-                <% blog.articles.group_by { |a| a.date.year }.each do |year, articles| %>
-                <p>
-                    <%= link_to "#{year} (#{articles.size})" , blog_year_path(year) %>
-                </p>
-                <% end %>
-            </div>
+      <div class="row">
+        <div class="col-md-8 col-sm-11">
+          <h3>
+            <%= current_article.title unless current_article.nil? %>
+          </h3>
+          <%= yield %>
+          <% if current_article %>
+            <a href="javascript:window.history.back();">Wstecz</a>
+          <% end %>
         </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="mb-3"></div>
+          <h2 class="aside">Spotkania ASI</h2>
+          <p>Spotykamy się w każdy wtorek o godzinie 18:00 w naszej siedzibie, która mieści się na ulicy
+            Grunwaldzkiej 61, w pok. nr 1 (wejście boczne budynku T3).</p>
+          <h2 class="aside">ASI w Internecie</h2>
+          <a href="https://discord.gg/nwdcrnk" target="_blank">Discord</a><br>
+          <a href="https://www.facebook.com/asi-wroclaw/" target="_blank">Facebook</a><br>
+          <a href="https://www.linkedin.com/company/akademickie-stowarzyszenie-informatyczne/"
+            target="_blank">LinkedIn</a><br>
+          <a rel="me" href="https://fosstodon.org/@ASI" target="_blank">Mastodon</a><br>
+          <a href="https://bsky.app/profile/asi.wroclaw.pl" target="_blank">Bluesky</a><br>
+          <a href="https://www.facebook.com/groups/175529160840/" target="_blank">Grupa ASI</a><br>
+          <p></p>
+          <h2 class="aside">Według roku</h2>
+          <% blog.articles.group_by { |a| a.date.year }.each do |year, articles| %>
+            <p>
+              <%= link_to "#{year} (#{articles.size})" , blog_year_path(year) %>
+            </p>
+          <% end %>
+        </div>
+      </div>
     </main>
     <%= partial 'shared/footer' %>
-
-   <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-        crossorigin="anonymous"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"></script>
     <script async src="https://scripts.simpleanalyticscdn.com/latest.js" data-collect-dnt="true"></script>
-</body>
-
+  </body>
 </html>
