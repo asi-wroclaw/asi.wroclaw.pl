@@ -189,6 +189,16 @@ aside a:hover {
   text-decoration: underline;
 }
 
+@media (max-width: 900px) {
+  .posts-by-year {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 1.5rem;
+    row-gap: 0.7rem;
+  }
+}
+
 /* footer */
 footer {
   background: var(--asi-primary-color);
