@@ -27,24 +27,16 @@ h4 {
   color: var(--asi-primary-color);
 }
 
+.card-title {
+  color: var(--asi-primary-color);
+}
+
 /* TODO: leftovers */
 img.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-.vertical-align {
-  display: flex;
-  align-items: center;
-}
-
-ul.alumni {
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-  list-style-position: inside;
 }
 
 .padding-top {
@@ -55,19 +47,9 @@ ul.alumni {
   column-count: 2;
 }
 
-div.card.shadow {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-}
-
 @media screen and (max-width: 40em) {
   img.logo {
     height: 60px;
-  }
-
-  ul.alumni {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
   }
 
   .card-columns {
@@ -89,10 +71,6 @@ div.card.shadow {
 
 .card-columns .card {
   margin-bottom: .75rem;
-}
-
-.card-title {
-  color: var(--asi-primary-color);
 }
 
 /* navbar accessibility */
@@ -238,6 +216,21 @@ aside a:hover {
     width: 70px !important;
     height: 70px !important;
     margin-bottom: 0.5rem;
+  }
+}
+
+ul.alumni {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  list-style-position: inside;
+}
+
+@media screen and (max-width: 40em) {
+  ul.alumni {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
   }
 }
 
