@@ -135,3 +135,13 @@ body {
     padding-top: 1rem;
   }
 }
+
+/* footer */
+footer {
+  background: var(--asi-primary-color);
+  color: #ffffff;
+}
+
+.copyright {
+  letter-spacing: 0.03em;
+}
