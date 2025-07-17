@@ -14,7 +14,8 @@ per_page: 100
       <%= year %>
     <% end %>
   </h1>
-  <ul id="content">
+
+  <ul class="mb-4">
     <% page_articles.each_with_index do |article, _i| %>
       <li>
         <%= link_to article.title, article %>
@@ -22,24 +23,7 @@ per_page: 100
       </li>
     <% end %>
     <p></p>
-    <% if paginate && num_pages > 1 %>
-      <nav aria-label="Paginacja" class="mt-4">
-        <ul class="pagination justify-content-center">
-          <% if prev_page %>
-            <li class="page-item">
-              <%= link_to 'Poprzednia', prev_page, class: "page-link" %>
-            </li>
-          <% end %>
-          <li class="page-item disabled">
-            <span class="page-link">Strona <%= page_number %> z <%= num_pages %></span>
-          </li>
-          <% if next_page %>
-            <li class="page-item">
-              <%= link_to 'Następna', next_page, class: "page-link" %>
-            </li>
-          <% end %>
-        </ul>
-      </nav>
-    <% end %>
   </ul>
+
+  <%= partial 'shared/pagination' %>
 <% end %>

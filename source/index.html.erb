@@ -18,22 +18,4 @@ per_page: 10
   <% end %>
 </div>
 
-<% if paginate && num_pages > 1 %>
-  <nav aria-label="Paginacja" class="mt-4">
-    <ul class="pagination justify-content-center">
-      <% if prev_page %>
-        <li class="page-item">
-          <%= link_to 'Poprzednia', prev_page, class: "page-link" %>
-        </li>
-      <% end %>
-      <li class="page-item disabled">
-        <span class="page-link">Strona <%= page_number %> z <%= num_pages %></span>
-      </li>
-      <% if next_page %>
-        <li class="page-item">
-          <%= link_to 'Następna', next_page, class: "page-link" %>
-        </li>
-      <% end %>
-    </ul>
-  </nav>
-<% end %>
+<%= partial 'shared/pagination' %>
