@@ -43,16 +43,6 @@ img.center {
   border-bottom: 2px solid var(--asi-primary-color);
 }
 
-.logo {
-  height: 90px;
-}
-
-@media screen and (max-width: 768px) {
-  .logo {
-    height: 60px;
-  }
-}
-
 .navbar-nav .nav-link {
   font-size: 1.15rem;
   font-weight: 600;
