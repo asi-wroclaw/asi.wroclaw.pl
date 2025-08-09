@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "~> 3.4.4"
+ruby "~> 3.4.5"
 
 gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby, :x64_mingw]
 gem "wdm", platforms: [:mswin, :mingw, :x64_mingw]
