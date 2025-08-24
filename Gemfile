@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-ruby "~> 3.4.5"
+ruby file: ".ruby-version"
 
-gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby, :x64_mingw]
-gem "wdm", platforms: [:mswin, :mingw, :x64_mingw]
+gem "tzinfo-data", platforms: [:windows, :jruby]
+gem "wdm", platforms: [:windows]
 
 gem "middleman"
 gem "middleman-blog"

@@ -8,7 +8,7 @@ We use [Middleman](https://middlemanapp.com/) to generate static pages for deplo
 
 ## Setup
 
-This guide assumes that you use either RVM or Rbenv and have installed Ruby version specified in [Gemfile](./Gemfile).
+This guide assumes that you use RVM and have installed Ruby version specified in [.ruby-version](./.ruby-version).
 
 ### Ruby setup
 
